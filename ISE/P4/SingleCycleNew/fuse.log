@@ -1,0 +1,37 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/BUAA/CS/ComputerOrgan/ISE/P4/SingleCycleNew/MIPS_CODE_isim_beh.exe -prj D:/BUAA/CS/ComputerOrgan/ISE/P4/SingleCycleNew/MIPS_CODE_beh.prj work.MIPS_CODE work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P4/SingleCycleNew/NextPC.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P4/SingleCycleNew/Instruction_Fetcher.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P4/SingleCycleNew/ImmCalc.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P4/SingleCycleNew/GRF.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P4/SingleCycleNew/DataMemory.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P4/SingleCycleNew/ALU.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P4/SingleCycleNew/DATAPATH.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P4/SingleCycleNew/Controller.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P4/SingleCycleNew/mips.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P4/SingleCycleNew/MIPS_CODE.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 180212 KB
+Fuse CPU Usage: 296 ms
+Compiling module ImmCalc
+Compiling module NextPC
+Compiling module Instruction_Fetcher
+Compiling module GRF
+Compiling module ALU
+Compiling module DataMemory
+Compiling module DATAPATH
+Compiling module Controller
+Compiling module mips
+Compiling module MIPS_CODE
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 Verilog Units
+Built simulation executable D:/BUAA/CS/ComputerOrgan/ISE/P4/SingleCycleNew/MIPS_CODE_isim_beh.exe
+Fuse Memory Usage: 188868 KB
+Fuse CPU Usage: 718 ms

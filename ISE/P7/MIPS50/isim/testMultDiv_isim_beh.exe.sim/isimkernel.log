@@ -1,0 +1,10 @@
+Command line:
+   testMultDiv_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49543
+
+Mon Dec 10 00:59:56 2018
+
+
+ Elaboration Time: 0.046875 sec

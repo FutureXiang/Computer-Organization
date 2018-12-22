@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/BUAA/CS/ComputerOrgan/ISE/Pipeline_VectorDot/Pipeline_test_isim_beh.exe" -prj "D:/BUAA/CS/ComputerOrgan/ISE/Pipeline_VectorDot/Pipeline_test_beh.prj" "work.Pipeline_test" "work.glbl" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/BUAA/CS/ComputerOrgan/ISE/adder_4bit/adder_4bit_test_isim_beh.exe" -prj "D:/BUAA/CS/ComputerOrgan/ISE/adder_4bit/adder_4bit_test_beh.prj" "work.adder_4bit_test" "work.glbl" 

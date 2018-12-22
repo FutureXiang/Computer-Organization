@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Stall_Detector.v" Line 120: Macro &lt;<arg fmt="%s" index="1">ALU</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Stall_Detector.v" Line 121: Macro &lt;<arg fmt="%s" index="1">DM</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Stall_Detector.v" Line 122: Macro &lt;<arg fmt="%s" index="1">PC</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Stall_Detector.v" Line 123: Macro &lt;<arg fmt="%s" index="1">NW</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Forward_Controller.v" Line 32: Macro &lt;<arg fmt="%s" index="1">ALU</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Forward_Controller.v" Line 33: Macro &lt;<arg fmt="%s" index="1">DM</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Forward_Controller.v" Line 34: Macro &lt;<arg fmt="%s" index="1">PC</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Forward_Controller.v" Line 35: Macro &lt;<arg fmt="%s" index="1">NW</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"Instructions.v" Line 6: Macro &lt;<arg fmt="%s" index="1">R</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"Instructions.v" Line 10: Macro &lt;<arg fmt="%s" index="1">lb</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"Instructions.v" Line 11: Macro &lt;<arg fmt="%s" index="1">lbu</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"Instructions.v" Line 12: Macro &lt;<arg fmt="%s" index="1">lh</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"Instructions.v" Line 13: Macro &lt;<arg fmt="%s" index="1">lhu</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"Instructions.v" Line 14: Macro &lt;<arg fmt="%s" index="1">lw</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"Instructions.v" Line 15: Macro &lt;<arg fmt="%s" index="1">sb</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"Instructions.v" Line 16: Macro &lt;<arg fmt="%s" index="1">sh</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="572" delta="old" >"Instructions.v" Line 17: Macro &lt;<arg fmt="%s" index="1">sw</arg>&gt; is redefined.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\TB.v" Line 37: Using initial value of <arg fmt="%s" index="1">reset</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="new" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Instruction_Fetcher.v" Line 31: Signal &lt;<arg fmt="%s" index="1">InstrMemory</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="new" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Instruction_Fetcher.v" Line 32: Signal &lt;<arg fmt="%s" index="1">InstrMemory</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 88: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 104: Result of <arg fmt="%d" index="1">64</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">32</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 105: Result of <arg fmt="%d" index="1">64</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">32</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 122: Result of <arg fmt="%d" index="1">64</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">32</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 123: Result of <arg fmt="%d" index="1">64</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">32</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 44: Assignment to <arg fmt="%s" index="1">PC</arg> ignored, since the identifier is never used
+</msg>
+
+</messages>

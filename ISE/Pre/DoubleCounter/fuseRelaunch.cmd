@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/BUAA/CS/ComputerOrgan/ISE/DoubleCounter/DoubleCounter_test_isim_beh.exe" -prj "D:/BUAA/CS/ComputerOrgan/ISE/DoubleCounter/DoubleCounter_test_beh.prj" "work.DoubleCounter_test" "work.glbl" 

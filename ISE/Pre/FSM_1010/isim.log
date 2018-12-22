@@ -1,0 +1,23 @@
+ISim log file
+Running: D:\BUAA\CS\ComputerOrgan\ISE\FSM_1010\test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/BUAA/CS/ComputerOrgan/ISE/FSM_1010/test_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time:                   0, in:0, state:          0
+time:                  10, in:1, state:          0
+time:                  15, in:1, state:          1
+time:                  30, in:0, state:          1
+time:                  35, in:0, state:          2
+time:                  40, in:1, state:          2
+time:                  45, in:1, state:          3
+time:                  50, in:0, state:          3
+time:                  55, in:0, state:          4
+time:                  65, in:0, state:          0

@@ -1,0 +1,63 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/TB_isim_beh.exe -prj D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/TB_beh.prj work.TB work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/Res_Translator.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/NextPC.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/Timer.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/Stall_Detector.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/MultDiv.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/MEMWB.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/MemCoder.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/Instruction_Fetcher.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/ImmCalc.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/IFID.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/IDEX.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/GRF.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/Forward_Controller.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/EXMEM.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/DataMemory.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/CP0.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/Controller.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/CMP.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/ALU.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/CPU.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/Bridge.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/mips.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/TB.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 181300 KB
+Fuse CPU Usage: 359 ms
+Compiling module NextPC
+Compiling module Instruction_Fetcher
+Compiling module IFID
+Compiling module Controller
+Compiling module ImmCalc
+Compiling module GRF
+Compiling module CMP
+Compiling module IDEX
+Compiling module ALU
+Compiling module MultDiv
+Compiling module EXMEM
+Compiling module MemCoder
+Compiling module DataMemory
+Compiling module CP0
+Compiling module MEMWB
+Compiling module Res_Translator
+Compiling module Forward_Controller
+Compiling module Stall_Detector
+Compiling module CPU
+Compiling module Timer
+Compiling module Bridge
+Compiling module mips
+Compiling module TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 24 Verilog Units
+Built simulation executable D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/TB_isim_beh.exe
+Fuse Memory Usage: 191236 KB
+Fuse CPU Usage: 1546 ms

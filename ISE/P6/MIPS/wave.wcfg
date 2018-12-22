@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/BUAA/CS/ComputerOrgan/ISE/P6/MIPS/TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/TB/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/Bridge/HWInt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HWInt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">HWInt[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/Bridge/Timer1/COUNT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">COUNT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNT[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/Bridge/Timer2/COUNT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">COUNT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNT[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/CPU/CP0/Exc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Exc[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Exc[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/CPU/CP0/Int" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Int[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Int[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/CPU/IR_IFID" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IR_IFID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_IFID[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/CPU/IR_IDEX" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IR_IDEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_IDEX[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/CPU/IR_EXMEM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IR_EXMEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_EXMEM[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/CPU/IR_MEMWB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IR_MEMWB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_MEMWB[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/CPU/V2_EXMEM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">V2_EXMEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">V2_EXMEM[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/CPU/IR_MEMWB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IR_MEMWB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_MEMWB[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/CPU/DR_MEMWB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DR_MEMWB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DR_MEMWB[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/CPU/StallOrNotNow/IFID" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IFID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IFID[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/CPU/StallOrNotNow/IDEX" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IDEX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/CPU/StallOrNotNow/STALL" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">STALL</obj_property>
+      <obj_property name="ObjectShortName">STALL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/CPU/__MF_EPC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">__MF_EPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">__MF_EPC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB/uut/CPU/x_MF_EPC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_MF_EPC[1:0]</obj_property>
+      <obj_property name="ObjectShortName">x_MF_EPC[1:0]</obj_property>
+   </wvobject>
+</wave_config>

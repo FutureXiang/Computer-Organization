@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/BUAA/CS/ComputerOrgan/ISE/My_first_ISM/counter.xst" -ofn "D:/BUAA/CS/ComputerOrgan/ISE/My_first_ISM/counter.syr" 
+xst -intstyle ise -ifn "D:/BUAA/CS/ComputerOrgan/ISE/My_first_ISM/counter.xst" -ofn "D:/BUAA/CS/ComputerOrgan/ISE/My_first_ISM/counter.syr" 

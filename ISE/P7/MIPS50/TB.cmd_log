@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/TB.xst" -ofn "D:/BUAA/CS/ComputerOrgan/ISE/P7/MIPS50/TB.syr" 

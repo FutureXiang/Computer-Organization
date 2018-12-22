@@ -1,0 +1,240 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: TB.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TB.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TB"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : TB
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Res_Translator.v" into library work
+Parsing module <Res_Translator>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\NextPC.v" into library work
+Parsing module <NextPC>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Timer.v" into library work
+Parsing module <Timer>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Stall_Detector.v" into library work
+Parsing module <Stall_Detector>.
+WARNING:HDLCompiler:572 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Stall_Detector.v" Line 120: Macro <ALU> is redefined.
+WARNING:HDLCompiler:572 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Stall_Detector.v" Line 121: Macro <DM> is redefined.
+WARNING:HDLCompiler:572 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Stall_Detector.v" Line 122: Macro <PC> is redefined.
+WARNING:HDLCompiler:572 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Stall_Detector.v" Line 123: Macro <NW> is redefined.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" into library work
+Parsing module <MultDiv>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MEMWB.v" into library work
+Parsing module <MEMWB>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MemCoder.v" into library work
+Parsing module <MemCoder>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Instruction_Fetcher.v" into library work
+Parsing module <Instruction_Fetcher>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\ImmCalc.v" into library work
+Parsing module <ImmCalc>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\IFID.v" into library work
+Parsing module <IFID>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\IDEX.v" into library work
+Parsing module <IDEX>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\GRF.v" into library work
+Parsing module <GRF>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Forward_Controller.v" into library work
+Parsing module <Forward_Controller>.
+WARNING:HDLCompiler:572 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Forward_Controller.v" Line 32: Macro <ALU> is redefined.
+WARNING:HDLCompiler:572 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Forward_Controller.v" Line 33: Macro <DM> is redefined.
+WARNING:HDLCompiler:572 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Forward_Controller.v" Line 34: Macro <PC> is redefined.
+WARNING:HDLCompiler:572 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Forward_Controller.v" Line 35: Macro <NW> is redefined.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\EXMEM.v" into library work
+Parsing module <EXMEM>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\DataMemory.v" into library work
+Parsing module <DataMemory>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\CP0.v" into library work
+Parsing module <CP0>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Controller.v" into library work
+Parsing verilog file "Instructions.v" included at line 2.
+Parsing module <Instructions>.
+WARNING:HDLCompiler:572 - "Instructions.v" Line 6: Macro <R> is redefined.
+WARNING:HDLCompiler:572 - "Instructions.v" Line 10: Macro <lb> is redefined.
+WARNING:HDLCompiler:572 - "Instructions.v" Line 11: Macro <lbu> is redefined.
+WARNING:HDLCompiler:572 - "Instructions.v" Line 12: Macro <lh> is redefined.
+WARNING:HDLCompiler:572 - "Instructions.v" Line 13: Macro <lhu> is redefined.
+WARNING:HDLCompiler:572 - "Instructions.v" Line 14: Macro <lw> is redefined.
+WARNING:HDLCompiler:572 - "Instructions.v" Line 15: Macro <sb> is redefined.
+WARNING:HDLCompiler:572 - "Instructions.v" Line 16: Macro <sh> is redefined.
+WARNING:HDLCompiler:572 - "Instructions.v" Line 17: Macro <sw> is redefined.
+Parsing module <Controller>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\CMP.v" into library work
+Parsing module <CMP>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\CPU.v" into library work
+Parsing module <CPU>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Bridge.v" into library work
+Parsing module <Bridge>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\mips.v" into library work
+Parsing module <mips>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\TB.v" into library work
+Parsing module <TB>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <TB>.
+WARNING:HDLCompiler:872 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\TB.v" Line 37: Using initial value of reset since it is never assigned
+
+Elaborating module <mips>.
+
+Elaborating module <CPU>.
+
+Elaborating module <Instruction_Fetcher>.
+Reading initialization file \"code.txt\".
+WARNING:HDLCompiler:1670 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Instruction_Fetcher.v" Line 31: Signal <InstrMemory> in initial block is partially initialized.
+Reading initialization file \"code_handler.txt\".
+WARNING:HDLCompiler:1670 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\Instruction_Fetcher.v" Line 32: Signal <InstrMemory> in initial block is partially initialized.
+
+Elaborating module <NextPC>.
+
+Elaborating module <IFID>.
+
+Elaborating module <Controller>.
+
+Elaborating module <ImmCalc>.
+
+Elaborating module <GRF>.
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\GRF.v" Line 37. $display  32'b................................ 5'b..... 32'b................................
+
+Elaborating module <CMP>.
+
+Elaborating module <IDEX>.
+
+Elaborating module <ALU>.
+
+Elaborating module <MultDiv>.
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 55. $display  32'b................................ 32'b................................
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 60. $display  32'b................................ 32'b................................
+WARNING:HDLCompiler:413 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 88: Result of 5-bit expression is truncated to fit in 4-bit target.
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 92. $display  32'b................................ 32'b................................
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 93. $display  32'b................................ 32'b................................
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 102. $display  32'b................................ 64'sb................................................................
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 103. $display  32'b................................ 64'sb................................................................
+WARNING:HDLCompiler:413 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 104: Result of 64-bit expression is truncated to fit in 32-bit target.
+WARNING:HDLCompiler:413 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 105: Result of 64-bit expression is truncated to fit in 32-bit target.
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 110. $display  32'b................................ 0
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 111. $display  32'b................................ 0
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 120. $display  32'b................................ 64'b................................................................
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 121. $display  32'b................................ 64'b................................................................
+WARNING:HDLCompiler:413 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 122: Result of 64-bit expression is truncated to fit in 32-bit target.
+WARNING:HDLCompiler:413 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 123: Result of 64-bit expression is truncated to fit in 32-bit target.
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 128. $display  32'b................................ 0
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 129. $display  32'b................................ 0
+WARNING:HDLCompiler:1127 - "D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\MultDiv.v" Line 44: Assignment to PC ignored, since the identifier is never used
+
+Elaborating module <EXMEM>.
+
+Elaborating module <MemCoder>.
+
+Elaborating module <DataMemory>.
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\DataMemory.v" Line 90. $display  32'b................................ 32'b................................ 32'b................................
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\DataMemory.v" Line 94. $display  32'b................................ 32'b..............................00 32'b................................
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\DataMemory.v" Line 98. $display  32'b................................ 32'b..............................00 32'b................................
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\DataMemory.v" Line 104. $display  32'b................................ 32'b..............................00 32'b................................
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\DataMemory.v" Line 108. $display  32'b................................ 32'b..............................00 32'b................................
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\DataMemory.v" Line 112. $display  32'b................................ 32'b..............................00 32'b................................
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\DataMemory.v" Line 116. $display  32'b................................ 32'b..............................00 32'b................................
+"D:\BUAA\CS\ComputerOrgan\ISE\P7\MIPS50\DataMemory.v" Line 123. $display  32'b................................ 32'b................................ 32'b................................

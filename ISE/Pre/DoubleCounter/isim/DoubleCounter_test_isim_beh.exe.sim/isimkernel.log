@@ -1,0 +1,29 @@
+Command line:
+   DoubleCounter_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52000
+
+Wed Oct 03 20:25:47 2018
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 1009.44 Meg
+
+ Total Signals          : 21
+ Total Nets             : 145
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 16
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 357
+Total Line Count : 38
+
+ Total Simulation Time: 0.546875 sec
+
+ Current Memory Usage: 852.943 Meg
+
+Wed Oct 03 20:26:58 2018
+
