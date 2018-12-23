@@ -161,7 +161,7 @@ module CPU(
 	wire [3:0] BitEnable_DM;
 	wire [31:0] WORD_DMread, Adapted_mWD;
 	
-	MemCoder get_code (IR_EXMEM, memCode);
+	MemCoder get_code (IR_EXMEM[31:26], memCode);
 	BitEnable BEgen ((MemWrite_EXMEM & (~GOTO_HANDLER)), memCode, Addr[1:0],     BitEnable_DM);
 	MemExceptionDetect DMXcp (Addr, memCode, AddrException);
 

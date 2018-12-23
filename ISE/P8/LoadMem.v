@@ -38,7 +38,7 @@ module LoadMem(
 	wire [31:0] ReadBYTE_unsigned   = { 24'b0                   , ReadBYTE_temp}; 
 	wire [31:0] ReadBYTE = (MemCode==`lb__) ? ReadBYTE_signed : ReadBYTE_unsigned ;
 
-	assign TrueData = (WORD) ? (ReadWORD) : ( (HALF) ? (ReadHALF) : (ReadBYTE) ) ;
+	assign TrueData = (WORD) ? (ReadWORD) : ( (HALF) ? (ReadHALF) : ( (BYTE) ? ReadBYTE : RawData ) ) ;
 
 
 

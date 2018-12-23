@@ -1,6 +1,9 @@
-set -tmpdir "D:/BUAA/CS/ComputerOrgan/ISE/P8/xst/projnav.tmp"
-set -xsthdpdir "D:/BUAA/CS/ComputerOrgan/ISE/P8/xst"
-run -compileonly yes
+set -tmpdir "xst/projnav.tmp"
+set -xsthdpdir "xst"
+run
+-ifn TB.prj
+-ofn TB
+-ofmt NGC
 -p xc6slx100-2-fgg676
 -top TB
 -opt_mode Speed
@@ -48,4 +51,3 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn TB.prj

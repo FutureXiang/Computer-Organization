@@ -1,3 +1,13 @@
 xst -intstyle ise -ifn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.xst" -ofn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.syr" 
 xst -intstyle ise -ifn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.xst" -ofn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.syr" 
 vhdtdtfi -lang verilog -prj P8 -o D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.tfi -lib work D:/BUAA/CS/ComputerOrgan/ISE/P8//TB.v -module TB -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.xst" -ofn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.syr" 
+xst -intstyle ise -ifn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.xst" -ofn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.syr" 
+xst -intstyle ise -ifn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.xst" -ofn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.syr" 
+xst -intstyle ise -ifn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.xst" -ofn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.syr" 
+xst -intstyle ise -ifn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.xst" -ofn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.syr" 
+xst -intstyle ise -ifn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.xst" -ofn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.syr" 
+xst -intstyle ise -ifn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.xst" -ofn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.syr" 
+xst -intstyle ise -ifn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.xst" -ofn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.syr" 
+xst -intstyle ise -ifn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.xst" -ofn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.syr" 
+xst -intstyle ise -ifn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.xst" -ofn "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.syr" 

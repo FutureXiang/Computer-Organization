@@ -1,4 +1,4 @@
-Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB_isim_beh.exe" -prj "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB_beh.prj" "work.TB" "work.glbl" 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/BUAA/CS/ComputerOrgan/ISE/P8/TB_isim_beh.exe -prj D:/BUAA/CS/ComputerOrgan/ISE/P8/TB_beh.prj work.TB work.glbl 
 ISim P.20131013 (signature 0x8ef4fb42)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
@@ -35,8 +35,8 @@ Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into libr
 Starting static elaboration
 WARNING:HDLCompiler:189 - "D:/BUAA/CS/ComputerOrgan/ISE/P8/Instruction_Fetcher.v" Line 37: Size mismatch in connection of port <addra>. Formal port size is 13-bit while actual signal size is 32-bit.
 Completed static elaboration
-Fuse Memory Usage: 181300 KB
-Fuse CPU Usage: 468 ms
+Fuse Memory Usage: 181748 KB
+Fuse CPU Usage: 327 ms
 Compiling module IBUFG
 Compiling module dcm_sp_clock_divide_by_2
 Compiling module dcm_sp_maximum_period_check(cloc...
@@ -82,5 +82,5 @@ Compiling module glbl
 Time Resolution for simulation is 1ps.
 Compiled 42 Verilog Units
 Built simulation executable D:/BUAA/CS/ComputerOrgan/ISE/P8/TB_isim_beh.exe
-Fuse Memory Usage: 193120 KB
-Fuse CPU Usage: 2327 ms
+Fuse Memory Usage: 192708 KB
+Fuse CPU Usage: 2140 ms

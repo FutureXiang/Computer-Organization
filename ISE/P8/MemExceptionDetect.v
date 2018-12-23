@@ -23,7 +23,6 @@ module MemExceptionDetect(
 	assign Load = (code==`lw__) | (code==`lh__) | (code==`lhu__) | (code==`lb__) | (code==`lbu__) ;
 	
 	// ==================== Exception
-	assign hitDM =    (Addr>=32'h00000000 & Addr<=32'h00002fff);
 	assign hit_DEV1 = (Addr>=32'h00007F00 & Addr<=32'h00007F0B);
 	assign hit_DEV2 = (Addr>=32'h00007F10 & Addr<=32'h00007F1B);
 
