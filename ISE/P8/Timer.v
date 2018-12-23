@@ -17,13 +17,13 @@ module Timer(
 	`define CNT 2
 	`define INT 3
 	
-	initial begin
+	/*initial begin
 		CTRL <= 0;
 		INIT <= 0;
 		COUNT <= 0;
 		IRQ <= 0;
 		STATE <= 0;
-	end
+	end*/
 	
 	assign Enable = CTRL[0]; 	// 1 for enable counting
 	assign Mode = CTRL[1];		// 0 for down to zero, 1 for continous

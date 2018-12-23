@@ -1,0 +1,120 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/BUAA/CS/ComputerOrgan/ISE/P8/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to D:/BUAA/CS/ComputerOrgan/ISE/P8/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: TB.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\ipcore_dir\Clock.v" into library work
+Parsing module <Clock>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\Res_Translator.v" into library work
+Parsing module <Res_Translator>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\NextPC.v" into library work
+Parsing module <NextPC>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\ipcore_dir\IM_BlockRAM.v" into library work
+Parsing module <IM_BlockRAM>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\Timer.v" into library work
+Parsing module <Timer>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\Switches.v" into library work
+Parsing module <Switches>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\Stall_Detector.v" into library work
+Parsing module <Stall_Detector>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\SaveMem.v" into library work
+Parsing module <SaveMem>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\MEMWB.v" into library work
+Parsing module <MEMWB>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\MemExceptionDetect.v" into library work
+Parsing module <MemExceptionDetect>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\MemCoder.v" into library work
+Parsing module <MemCoder>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\LoadMem.v" into library work
+Parsing module <LoadMem>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\LED.v" into library work
+Parsing module <LED>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\ipcore_dir\DM_BlockRAM.v" into library work
+Parsing module <DM_BlockRAM>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\Instruction_Fetcher.v" into library work
+Parsing module <Instruction_Fetcher>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\ImmCalc.v" into library work
+Parsing module <ImmCalc>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\IFID.v" into library work
+Parsing module <IFID>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\IDEX.v" into library work
+Parsing module <IDEX>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\GRF.v" into library work
+Parsing module <GRF>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\Forward_Controller.v" into library work
+Parsing module <Forward_Controller>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\EXMEM.v" into library work
+Parsing module <EXMEM>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\Digital.v" into library work
+Parsing module <Digital>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\CP0.v" into library work
+Parsing module <CP0>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\Controller.v" into library work
+Parsing verilog file "Instructions.v" included at line 2.
+Parsing module <Instructions>.
+Parsing module <Controller>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\CMP.v" into library work
+Parsing module <CMP>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\Buttons.v" into library work
+Parsing module <Buttons>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\BitEnable.v" into library work
+Parsing module <BitEnable>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\CPU.v" into library work
+Parsing module <CPU>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\Bridge.v" into library work
+Parsing module <Bridge>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\mips.v" into library work
+Parsing module <mips>.
+Analyzing Verilog file "D:\BUAA\CS\ComputerOrgan\ISE\P8\TB.v" into library work
+Parsing module <TB>.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.43 secs
+ 
+--> 
+
+Total memory usage is 225836 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
