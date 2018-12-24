@@ -1,0 +1,95 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB_isim_beh.exe" -prj "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB_beh.prj" "work.TB" "work.glbl" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/ipcore_dir/Clock.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/Res_Translator.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/NextPC.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/ipcore_dir/IM_BlockRAM.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/Timer.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/Switches.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/Stall_Detector.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/SaveMem.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/MEMWB.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/MemExceptionDetect.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/MemCoder.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/LoadMem.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/LED.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/ipcore_dir/DM_BlockRAM.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/Instruction_Fetcher.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/ImmCalc.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/IFID.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/IDEX.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/GRF.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/Forward_Controller.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/EXMEM.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/Digital.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/CP0.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/Controller.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/CMP.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/Buttons.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/BitEnable.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/ALU.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/CPU.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/Bridge.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/mips.v" into library work
+Analyzing Verilog file "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "D:/BUAA/CS/ComputerOrgan/ISE/P8/Instruction_Fetcher.v" Line 37: Size mismatch in connection of port <addra>. Formal port size is 13-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 181812 KB
+Fuse CPU Usage: 484 ms
+Compiling module IBUFG
+Compiling module dcm_sp_clock_divide_by_2
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_clock_lost
+Compiling module DCM_SP(CLKIN_PERIOD=40.0)
+Compiling module BUFG
+Compiling module Clock
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module IM_BlockRAM
+Compiling module NextPC
+Compiling module Instruction_Fetcher
+Compiling module IFID
+Compiling module Controller
+Compiling module ImmCalc
+Compiling module GRF
+Compiling module CMP
+Compiling module IDEX
+Compiling module ALU
+Compiling module EXMEM
+Compiling module MemCoder
+Compiling module BitEnable
+Compiling module MemExceptionDetect
+Compiling module SaveMem
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module DM_BlockRAM
+Compiling module LoadMem
+Compiling module CP0
+Compiling module MEMWB
+Compiling module Res_Translator
+Compiling module Forward_Controller
+Compiling module Stall_Detector
+Compiling module CPU
+Compiling module Timer
+Compiling module Switches
+Compiling module LED
+Compiling module Digital
+Compiling module Buttons
+Compiling module Bridge
+Compiling module mips
+Compiling module TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 46 Verilog Units
+Built simulation executable D:/BUAA/CS/ComputerOrgan/ISE/P8/TB_isim_beh.exe
+Fuse Memory Usage: 193632 KB
+Fuse CPU Usage: 2343 ms

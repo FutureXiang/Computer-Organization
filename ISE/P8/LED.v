@@ -13,7 +13,7 @@ module LED(
             RD <= 32'd0;
         end
         else if(WE) begin
-            RD <= WD;
+            RD <= ~WD;
         end
     end
 

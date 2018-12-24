@@ -11,8 +11,8 @@ module Bridge(
 	output [5:0] HWInt,
 
 	// uart interface
-	input uart_rxd,
-	output uart_txd,
+	// input uart_rxd,
+	// output uart_txd,
 
 	// DIP switch
 	input [7:0] dip_switch0,
@@ -43,7 +43,7 @@ module Bridge(
 	wire [2:0] DEV3_Addr, DEV5_Addr;
 	wire [31:0] DEV1_RD, DEV2_RD, DEV3_RD, DEV4_RD, DEV5_RD, DEV6_RD;
 	wire DEV1_WE, DEV2_WE, DEV4_WE, DEV5_WE;
-	wire DEV1_Int;
+	wire DEV1_Int, DEV2_Int;
 
 
 	assign hit_DEV1 = (CPU_Addr>=32'h00007F00 && CPU_Addr<=32'h00007F0B);	// Timer:	3 Regs
@@ -57,13 +57,14 @@ module Bridge(
 	assign CPU_RD = hit_DEV1 ? DEV1_RD : (hit_DEV2 ? DEV2_RD : ( hit_DEV3 ? DEV3_RD : ( hit_DEV4 ? DEV4_RD : ( hit_DEV5 ? DEV5_RD : ( hit_DEV6 ? DEV6_RD : `NO_HIT_RD ) ) ) ) );
 	assign DEV1_Addr = CPU_Addr[3:0] / 4;	// 0 for CTRL, 1 for PRESET, 2 for COUNT
 	assign DEV3_Addr = (CPU_Addr[7:0] - 8'h2c);		// 0~7 for switch group 0~7
+	assign DEV5_Addr = (CPU_Addr[7:0] - 8'h38);		// 0~7 for 8 bytes
 
 	assign DEV1_WE = DEV_WE & hit_DEV1;
 	assign DEV2_WE = DEV_WE & hit_DEV2;
 	assign DEV4_WE = DEV_WE & hit_DEV4;
 	assign DEV5_WE = DEV_WE & hit_DEV5;
 	
-	assign HWInt = {5'd0, DEV1_Int};
+	assign HWInt = {4'd0, DEV2_Int, DEV1_Int};
 	
 	Timer  Timer1 (CLK, RST, DEV1_Addr, DEV1_WE, CPU_WD,     DEV1_RD, DEV1_Int);
 	Switches Switches (CLK, RST, dip_switch7, dip_switch6, dip_switch5, dip_switch4,

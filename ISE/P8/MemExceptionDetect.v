@@ -23,16 +23,20 @@ module MemExceptionDetect(
 	assign Load = (code==`lw__) | (code==`lh__) | (code==`lhu__) | (code==`lb__) | (code==`lbu__) ;
 	
 	// ==================== Exception
-	assign hit_DEV1 = (Addr>=32'h00007F00 & Addr<=32'h00007F0B);
-	assign hit_DEV2 = (Addr>=32'h00007F10 & Addr<=32'h00007F1B);
+	assign hit_DEV1 = (Addr>=32'h00007F00 & Addr<=32'h00007F0B);	// Timer:	3 Regs
+	assign hit_DEV2 = (Addr>=32'h00007F10 & Addr<=32'h00007F2B);	// UART:	7 Regs
+	assign hit_DEV3 = (Addr>=32'h00007F2C & Addr<=32'h00007F33);	// 64 Switches
+	assign hit_DEV4 = (Addr>=32'h00007F34 & Addr<=32'h00007F37);	// 32b LED
+	assign hit_DEV5 = (Addr>=32'h00007F38 && Addr<=32'h00007F3F);	// 4+4+1 Digital Tubes
+	assign hit_DEV6 = (Addr>=32'h00007F40 && Addr<=32'h00007F43);	// 8 User Buttons
 
-    assign AddrWrongRange = ~( ((Addr >= 32'h00000000)&(Addr <= 32'h00002ffc)) | ((Addr >= 32'h00007F00)&(Addr <= 32'h00007F0B)) | ((Addr >= 32'h00007F10)&(Addr <= 32'h00007F1B)) );
+    assign AddrWrongRange = ~( ((Addr >= 32'h00000000)&(Addr <= 32'h00002ffc)) | hit_DEV1 | hit_DEV2 | hit_DEV3 | hit_DEV4 | hit_DEV5 | hit_DEV6);
 	assign AddrWrongWORD = ( (Addr[1:0]!=2'b00) | AddrWrongRange );
 	assign AddrWrongHALF = ( (Addr[0]!=1'b0)    | AddrWrongRange );
 	assign AddrWrongBYTE = AddrWrongRange;	
 
-	assign AddrException = ( Save & ( (WORD & AddrWrongWORD) | (HALF & AddrWrongHALF) | (BYTE & AddrWrongBYTE) | (Addr==32'h00007F08 | Addr==32'h00007F18) | ((HALF|BYTE)&(hit_DEV1|hit_DEV2)) ) ) ? (2'b11) :
-						   ( Load & ( (WORD & AddrWrongWORD) | (HALF & AddrWrongHALF) | (BYTE & AddrWrongBYTE) | ((HALF|BYTE)&(hit_DEV1|hit_DEV2)) )   ? (2'b10) :  (2'b00) );
+	assign AddrException = ( Save & ( (WORD & AddrWrongWORD) | (HALF & AddrWrongHALF) | (BYTE & AddrWrongBYTE) | (Addr==32'h00007F08 | Addr==32'h00007F18) | ((HALF|BYTE)&(hit_DEV1)) ) ) ? (2'b11) :
+						   ( Load & ( (WORD & AddrWrongWORD) | (HALF & AddrWrongHALF) | (BYTE & AddrWrongBYTE) | ((HALF|BYTE)&(hit_DEV1)) )   ? (2'b10) :  (2'b00) );
 
 
 

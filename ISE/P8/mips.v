@@ -6,8 +6,8 @@ module mips(
     input sys_rstn,
 
 	// uart interface
-	input uart_rxd,
-	output uart_txd,
+	// input uart_rxd,
+	// output uart_txd,
 
 	// DIP switch
 	input [7:0] dip_switch0,
@@ -49,8 +49,13 @@ module mips(
 	Bridge Bridge (clk1, sys_rstn,
 					CPU_Addr, CPU_WD, CPU_RD, DEV_WE,
 					HWInt,
+					// uart_rxd, uart_txd,
+					dip_switch0, dip_switch1, dip_switch2, dip_switch3,
+					dip_switch4, dip_switch5, dip_switch6, dip_switch7,
 					user_key,
-					dip_switch7, dip_switch6, dip_switch5, dip_switch4,
-					dip_switch3, dip_switch2, dip_switch1, dip_switch0);
+					led_light,
+					digital_tube2, digital_tube_sel2,
+					digital_tube1, digital_tube_sel1,
+					digital_tube0, digital_tube_sel0);
 
 endmodule

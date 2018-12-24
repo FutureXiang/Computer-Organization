@@ -1,0 +1,84 @@
+ISim log file
+Running: D:\BUAA\CS\ComputerOrgan\ISE\P8\TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/BUAA/CS/ComputerOrgan/ISE/P8/TB_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING:  For instance IFU/Instuctions_IPcore/, width 13 of formal port addra is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module TB.uut.CPU.IFU.Instuctions_IPcore.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module TB.uut.CPU.Mems_IPcore.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+                  23@00003000: $17 <= 00007f00
+                  25@00003004: $19 <= 00007f2c
+                  27@00003008: $20 <= 00007f34
+                  29@0000300c: $21 <= 00007f38
+                  31@00003010: $22 <= 00007f40
+                  33@00003014: $ 8 <= 00000005
+                  37@0000301c: $ 9 <= 00000005
+                  39@00003020: $ 8 <= 00000001
+                  43@00003028: $ 9 <= 00000001
+                  53@00004180: $26 <= 0000302c
+                  57@00004184: $26 <= 00003030
+                  73@00004180: $26 <= 00003030
+                  77@00004184: $26 <= 00003034
+                  85@00003034: $ 1 <= 0f0f0000
+                  87@00003038: $ 8 <= 0f0f0f0f
+                  97@00004180: $26 <= 0000303c
+                 101@00004184: $26 <= 00003040
+                 117@00004180: $26 <= 00003040
+                 121@00004184: $26 <= 00003044
+                 129@00003044: $ 8 <= 00000042
+                 139@00004180: $26 <= 00003048
+                 143@00004184: $26 <= 0000304c
+                 159@00004180: $26 <= 0000304c
+                 163@00004184: $26 <= 00003050
+                 171@00003050: $ 1 <= 11220000
+                 173@00003054: $ 8 <= 11223344
+                 183@00004180: $26 <= 00003058
+                 187@00004184: $26 <= 0000305c
+                 203@00004180: $26 <= 0000305c
+                 207@00004184: $26 <= 00003060
+                 223@00004180: $26 <= 00003060
+                 227@00004184: $26 <= 00003064
+ISim P.20131013 (signature 0x8ef4fb42)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING:  For instance IFU/Instuctions_IPcore/, width 13 of formal port addra is not equal to width 32 of actual constant.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module TB.uut.CPU.IFU.Instuctions_IPcore.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module TB.uut.CPU.Mems_IPcore.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+                  23@00003000: $17 <= 00007f00
+                  25@00003004: $19 <= 00007f2c
+                  27@00003008: $20 <= 00007f34
+                  29@0000300c: $21 <= 00007f38
+                  31@00003010: $22 <= 00007f40
+                  33@00003014: $ 8 <= 00000005
+                  37@0000301c: $ 9 <= 00000005
+                  39@00003020: $ 8 <= 00000001
+                  43@00003028: $ 9 <= 00000001
+                  45@0000302c: $ 8 <= 7e813cc3
+                  47@00003030: $ 9 <= 18e70ff0
+                  49@00003034: $ 1 <= 0f0f0000
+                  51@00003038: $ 8 <= 0f0f0f0f
+                  55@00003040: $ 8 <= f0f0f0f0
+                  57@00003044: $ 8 <= 00000042
+                  61@0000304c: $ 8 <= 00000042
+                  63@00003050: $ 1 <= 11220000
+                  65@00003054: $ 8 <= 11223344
+                  69@0000305c: $ 8 <= 11223344
+                  71@00003060: $ 8 <= 000000a5
+# run 1.00us
