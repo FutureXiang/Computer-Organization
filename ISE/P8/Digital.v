@@ -22,10 +22,10 @@ module Digital(
     reg [7:0] tube1_34; // offset 3
     reg [7:0] tube2;    // offset 4
     
-    reg [7:0] counter;  // counter: 200 down to 0
+    reg [19:0] counter;  // counter: 200 down to 0
     reg [3:0] data0, data1, data2; // data to be selected
-    `define INIT_TIMER 8'd200
-
+    // `define INIT_TIMER 20'd5
+    `define INIT_TIMER 20'd50000
     assign RD = (innerADDR >= 3'd4) ? ({24'd0, tube2}) : ({tube1_34, tube1_12, tube0_34, tube0_12});
 
     always @(posedge CLK) begin
@@ -38,9 +38,9 @@ module Digital(
             data1 <= 4'd0;
             data2 <= 4'd0;
 
-            digital_tube_sel2 <= 0;
-            digital_tube_sel1 <= 0;
-            digital_tube_sel0 <= 0;
+            digital_tube_sel2 <= 1'b0;
+            digital_tube_sel1 <= 4'b1000;
+            digital_tube_sel0 <= 4'b1000;
         end
         else begin
             if(WE) begin
@@ -50,76 +50,68 @@ module Digital(
                 else begin
                     {tube1_34, tube1_12, tube0_34, tube0_12} <= WD;
                 end
-                counter <= `INIT_TIMER;
-                digital_tube_sel0 <= 4'b0001;
-                data0 <= tube0_12[7:0];
-                digital_tube_sel1 <= 4'b0001;
-                data1 <= tube1_12[7:0];
-                digital_tube_sel2 <= 1'b1;
-                data2 <= tube2[3:0];
             end
+
+            if(counter!=0)
+                counter <= counter - 1;
             else begin
-                if(counter!=0)
-                    counter <= counter - 1;
-                else begin
-                    counter <= `INIT_TIMER;
-                    case (digital_tube_sel0)
-                        4'b0001: begin
-                            digital_tube_sel0 <= 4'b0010;
-                            data0 <= tube0_12[7:4];
-                        end
-                        4'b0010: begin
-                            digital_tube_sel0 <= 4'b0100;
-                            data0 <= tube0_34[3:0];
-                        end
-                        4'b0100: begin
-                            digital_tube_sel0 <= 4'b1000;
-                            data0 <= tube0_34[7:4];
-                        end
-                        4'b1000: begin
-                            digital_tube_sel0 <= 4'b0001;
-                            data0 <= tube0_12[3:0];
-                        end
-                        default: begin
-                            digital_tube_sel0 <= 0;
-                            data0 <= 0;
-                        end
-                    endcase
-                    case (digital_tube_sel1)
-                        4'b0001: begin
-                            digital_tube_sel1 <= 4'b0010;
-                            data1 <= tube1_12[7:4];
-                        end
-                        4'b0010: begin
-                            digital_tube_sel1 <= 4'b0100;
-                            data1 <= tube1_34[3:0];
-                        end
-                        4'b0100: begin
-                            digital_tube_sel1 <= 4'b1000;
-                            data1 <= tube1_34[7:4];
-                        end
-                        4'b1000: begin
-                            digital_tube_sel1 <= 4'b0001;
-                            data1 <= tube1_12[3:0];
-                        end
-                        default: begin
-                            digital_tube_sel1 <= 0;
-                            data1 <= 0;
-                        end
-                    endcase
-                    case (digital_tube_sel2)
-                        1'b0: begin
-                            digital_tube_sel2 <= 1'b1;
-                        end
-                        1'b1: begin
-                            digital_tube_sel2 <= 1'b0;
-                        end
-                        default: begin
-                            digital_tube_sel2 <= 0;
-                            data2 <= 0;
-                        end
-                    endcase
-                end
+                counter <= `INIT_TIMER;
+                case (digital_tube_sel0)
+                    4'b0001: begin
+                        digital_tube_sel0 <= 4'b0010;
+                        data0 <= tube0_12[7:4];
+                    end
+                    4'b0010: begin
+                        digital_tube_sel0 <= 4'b0100;
+                        data0 <= tube0_34[3:0];
+                    end
+                    4'b0100: begin
+                        digital_tube_sel0 <= 4'b1000;
+                        data0 <= tube0_34[7:4];
+                    end
+                    4'b1000: begin
+                        digital_tube_sel0 <= 4'b0001;
+                        data0 <= tube0_12[3:0];
+                    end
+                    default: begin
+                        digital_tube_sel0 <= 0;
+                        data0 <= 0;
+                    end
+                endcase
+                case (digital_tube_sel1)
+                    4'b0001: begin
+                        digital_tube_sel1 <= 4'b0010;
+                        data1 <= tube1_12[7:4];
+                    end
+                    4'b0010: begin
+                        digital_tube_sel1 <= 4'b0100;
+                        data1 <= tube1_34[3:0];
+                    end
+                    4'b0100: begin
+                        digital_tube_sel1 <= 4'b1000;
+                        data1 <= tube1_34[7:4];
+                    end
+                    4'b1000: begin
+                        digital_tube_sel1 <= 4'b0001;
+                        data1 <= tube1_12[3:0];
+                    end
+                    default: begin
+                        digital_tube_sel1 <= 0;
+                        data1 <= 0;
+                    end
+                endcase
+                case (digital_tube_sel2)
+                    1'b0: begin
+                        digital_tube_sel2 <= 1'b1;
+                    end
+                    1'b1: begin
+                        digital_tube_sel2 <= 1'b0;
+                    end
+                    default: begin
+                        digital_tube_sel2 <= 0;
+                        data2 <= tube2[3:0];
+                    end
+                endcase
             end
         end
     end

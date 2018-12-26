@@ -12,13 +12,13 @@
          <ClosedNode>/TB D:|BUAA|CS|ComputerOrgan|ISE|P8|TB.v/uut - mips/CPU - CPU/StallOrNotNow - Stall_Detector</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>TB (D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.v)</SelectedItem>
+         <SelectedItem>mips (D:/BUAA/CS/ComputerOrgan/ISE/P8/mips.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000020c000000020000000000000000000000000200000064ffffffff0000008100000003000000020000020c0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001f8000000020000000000000000000000000200000064ffffffff000000810000000300000002000001f80000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>TB (D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.v)</CurrentItem>
+      <CurrentItem>mips (D:/BUAA/CS/ComputerOrgan/ISE/P8/mips.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -61,32 +61,36 @@
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Configure Target Device</ClosedNode>
-         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Synthesize - XST</SelectedItem>
+         <SelectedItem>Implement Design</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >8</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000204000000010000000100000000000000000000000064ffffffff000000810000000000000001000002040000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000214000000010000000100000000000000000000000064ffffffff000000810000000000000001000002140000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Synthesize - XST</CurrentItem>
+      <CurrentItem>Implement Design</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/TB D:|BUAA|CS|ComputerOrgan|ISE|P8|TB.v/uut - mips/Bridge - Bridge/MiniUART - MiniUART/U_DIVISOR - divisor</ClosedNode>
+         <ClosedNode>/TB D:|BUAA|CS|ComputerOrgan|ISE|P8|TB.v/uut - mips/Bridge - Bridge/MiniUART - MiniUART/U_TX_UNIT - tx_unit</ClosedNode>
          <ClosedNode>/TB D:|BUAA|CS|ComputerOrgan|ISE|P8|TB.v/uut - mips/CPU - CPU/MF_mux_sig - Forward_Controller</ClosedNode>
          <ClosedNode>/TB D:|BUAA|CS|ComputerOrgan|ISE|P8|TB.v/uut - mips/CPU - CPU/StallOrNotNow - Stall_Detector</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>TB (D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.v)</SelectedItem>
+         <SelectedItem>uut - mips (D:/BUAA/CS/ComputerOrgan/ISE/P8/mips.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000020c000000020000000000000000000000000200000064ffffffff0000008100000003000000020000020c0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>TB (D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.v)</CurrentItem>
+      <CurrentItem>uut - mips (D:/BUAA/CS/ComputerOrgan/ISE/P8/mips.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -98,7 +102,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000233000000010000000100000000000000000000000064ffffffff000000810000000000000001000002330000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000215000000010000000100000000000000000000000064ffffffff000000810000000000000001000002150000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Design Utilities</CurrentItem>
    </ItemView>
@@ -107,28 +111,28 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000215000000010000000100000000000000000000000064ffffffff000000810000000000000001000002150000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000225000000010000000100000000000000000000000064ffffffff000000810000000000000001000002250000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
-   <SourceProcessView>000000ff0000000000000002000001b60000008501000000050100000002</SourceProcessView>
+   <SourceProcessView>000000ff0000000000000002000001610000013801000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000204000000010000000100000000000000000000000064ffffffff000000810000000000000001000002040000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000225000000010000000100000000000000000000000064ffffffff000000810000000000000001000002250000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
       <ClosedNodes>
@@ -139,7 +143,21 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000215000000010000000100000000000000000000000064ffffffff000000810000000000000001000002150000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000225000000010000000100000000000000000000000064ffffffff000000810000000000000001000002250000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000225000000010000000100000000000000000000000064ffffffff000000810000000000000001000002250000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>

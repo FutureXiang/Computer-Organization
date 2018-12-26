@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/BUAA/CS/ComputerOrgan/ISE/P8/testbench_miniuart_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench_miniuart" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/testbench_miniuart/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ack</obj_property>
+      <obj_property name="ObjectShortName">ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/txd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txd</obj_property>
+      <obj_property name="ObjectShortName">txd</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/U_MiniUART/U_TX_UNIT/en_tx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en_tx</obj_property>
+      <obj_property name="ObjectShortName">en_tx</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/IRQ_data_complete" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IRQ_data_complete</obj_property>
+      <obj_property name="ObjectShortName">IRQ_data_complete</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/stb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stb</obj_property>
+      <obj_property name="ObjectShortName">stb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/off" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">off[4:2]</obj_property>
+      <obj_property name="ObjectShortName">off[4:2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/dsave" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dsave[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dsave[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/rxd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxd</obj_property>
+      <obj_property name="ObjectShortName">rxd</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/U_MiniUART/U_RX_UNIT/en_rx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en_rx</obj_property>
+      <obj_property name="ObjectShortName">en_rx</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/U_MiniUART/U_RX_UNIT/byte" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/U_MiniUART/U_RX_UNIT/fsm" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fsm[2:0]</obj_property>
+      <obj_property name="ObjectShortName">fsm[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_miniuart/U_MiniUART/U_RX_UNIT/is_sample_point" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">is_sample_point</obj_property>
+      <obj_property name="ObjectShortName">is_sample_point</obj_property>
+   </wvobject>
+</wave_config>

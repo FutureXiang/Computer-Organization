@@ -10,7 +10,7 @@ module LED(
 
     always @(posedge CLK) begin
 		if(RST) begin
-            RD <= 32'd0;
+            RD <= ~(32'd0);
         end
         else if(WE) begin
             RD <= ~WD;

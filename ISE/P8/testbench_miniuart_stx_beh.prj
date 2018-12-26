@@ -1,0 +1,6 @@
+verilog isim_temp "uaRT/utils.v"
+verilog isim_temp "uaRT/txd.v"
+verilog isim_temp "uaRT/rxd.v"
+verilog isim_temp "uaRT/uart.v"
+verilog isim_temp "uaRT/TB_uaRT.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

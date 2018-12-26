@@ -15,7 +15,7 @@ module Buttons(
             RD <= 32'd0;
         end
         else
-            RD <= {24'd0, user_key};
+            RD <= {24'd0, ~user_key};
     end
 
 endmodule

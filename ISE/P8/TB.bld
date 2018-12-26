@@ -1,0 +1,2310 @@
+Release 14.7 ngdbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd ipcore_dir -nt timestamp -uc P8_PIN_Verified.ucf -p
+xc6slx100-fgg676-2 TB.ngc TB.ngd
+
+Reading NGO file "D:/BUAA/CS/ComputerOrgan/ISE/P8/TB.ngc" ...
+Loading design module "ipcore_dir/DM_BlockRAM.ngc"...
+Loading design module "ipcore_dir/IM_BlockRAM.ngc"...
+Gathering constraint information from source properties...
+Done.
+INFO:NgdBuild:889 - Pad net 'clk' is not connected to an external port in this
+   design.  A new port 'clk' has been added and is connected to this signal.
+
+Annotating constraints to design from ucf file "P8_PIN_Verified.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <NET "clk_in"      LOC = AF13 |>
+   [P8_PIN_Verified.ucf(4)]: NET "clk_in" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "clk_in"      LOC = AF13 |> [P8_PIN_Verified.ucf(4)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(4)]: NET "clk_in" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "sys_rstn"    LOC = AC12 |>
+   [P8_PIN_Verified.ucf(9)]: NET "sys_rstn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sys_rstn"    LOC = AC12 |> [P8_PIN_Verified.ucf(9)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(9)]: NET "sys_rstn" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "uart_rxd" LOC = AF16 |>
+   [P8_PIN_Verified.ucf(14)]: NET "uart_rxd" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "uart_rxd" LOC = AF16 |> [P8_PIN_Verified.ucf(14)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(14)]: NET "uart_rxd" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "uart_txd" LOC = AF15 |>
+   [P8_PIN_Verified.ucf(15)]: NET "uart_txd" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "uart_txd" LOC = AF15 |> [P8_PIN_Verified.ucf(15)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(15)]: NET "uart_txd" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[7]" LOC = D1  |>
+   [P8_PIN_Verified.ucf(20)]: NET "dip_switch0[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[7]" LOC = D1  |> [P8_PIN_Verified.ucf(20)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(20)]: NET "dip_switch0[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[6]" LOC = E3  |>
+   [P8_PIN_Verified.ucf(21)]: NET "dip_switch0[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[6]" LOC = E3  |> [P8_PIN_Verified.ucf(21)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(21)]: NET "dip_switch0[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[5]" LOC = E1  |>
+   [P8_PIN_Verified.ucf(22)]: NET "dip_switch0[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[5]" LOC = E1  |> [P8_PIN_Verified.ucf(22)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(22)]: NET "dip_switch0[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[4]" LOC = F3  |>
+   [P8_PIN_Verified.ucf(23)]: NET "dip_switch0[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[4]" LOC = F3  |> [P8_PIN_Verified.ucf(23)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(23)]: NET "dip_switch0[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[3]" LOC = F1  |>
+   [P8_PIN_Verified.ucf(24)]: NET "dip_switch0[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[3]" LOC = F1  |> [P8_PIN_Verified.ucf(24)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(24)]: NET "dip_switch0[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[2]" LOC = G3  |>
+   [P8_PIN_Verified.ucf(25)]: NET "dip_switch0[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[2]" LOC = G3  |> [P8_PIN_Verified.ucf(25)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(25)]: NET "dip_switch0[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[1]" LOC = H7  |>
+   [P8_PIN_Verified.ucf(26)]: NET "dip_switch0[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[1]" LOC = H7  |> [P8_PIN_Verified.ucf(26)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(26)]: NET "dip_switch0[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch0[0]" LOC = H3  |>
+   [P8_PIN_Verified.ucf(27)]: NET "dip_switch0[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch0[0]" LOC = H3  |> [P8_PIN_Verified.ucf(27)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(27)]: NET "dip_switch0[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[7]" LOC = G6  |>
+   [P8_PIN_Verified.ucf(28)]: NET "dip_switch1[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[7]" LOC = G6  |> [P8_PIN_Verified.ucf(28)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(28)]: NET "dip_switch1[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[6]" LOC = E6  |>
+   [P8_PIN_Verified.ucf(29)]: NET "dip_switch1[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[6]" LOC = E6  |> [P8_PIN_Verified.ucf(29)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(29)]: NET "dip_switch1[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[5]" LOC = G5  |>
+   [P8_PIN_Verified.ucf(30)]: NET "dip_switch1[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[5]" LOC = G5  |> [P8_PIN_Verified.ucf(30)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(30)]: NET "dip_switch1[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[4]" LOC = E4  |>
+   [P8_PIN_Verified.ucf(31)]: NET "dip_switch1[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[4]" LOC = E4  |> [P8_PIN_Verified.ucf(31)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(31)]: NET "dip_switch1[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[3]" LOC = B2  |>
+   [P8_PIN_Verified.ucf(32)]: NET "dip_switch1[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[3]" LOC = B2  |> [P8_PIN_Verified.ucf(32)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(32)]: NET "dip_switch1[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[2]" LOC = C2  |>
+   [P8_PIN_Verified.ucf(33)]: NET "dip_switch1[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[2]" LOC = C2  |> [P8_PIN_Verified.ucf(33)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(33)]: NET "dip_switch1[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[1]" LOC = B1  |>
+   [P8_PIN_Verified.ucf(34)]: NET "dip_switch1[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[1]" LOC = B1  |> [P8_PIN_Verified.ucf(34)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(34)]: NET "dip_switch1[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch1[0]" LOC = C1  |>
+   [P8_PIN_Verified.ucf(35)]: NET "dip_switch1[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch1[0]" LOC = C1  |> [P8_PIN_Verified.ucf(35)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(35)]: NET "dip_switch1[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[7]" LOC = A9  |>
+   [P8_PIN_Verified.ucf(36)]: NET "dip_switch2[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[7]" LOC = A9  |> [P8_PIN_Verified.ucf(36)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(36)]: NET "dip_switch2[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[6]" LOC = C9  |>
+   [P8_PIN_Verified.ucf(37)]: NET "dip_switch2[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[6]" LOC = C9  |> [P8_PIN_Verified.ucf(37)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(37)]: NET "dip_switch2[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[5]" LOC = G8  |>
+   [P8_PIN_Verified.ucf(38)]: NET "dip_switch2[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[5]" LOC = G8  |> [P8_PIN_Verified.ucf(38)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(38)]: NET "dip_switch2[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[4]" LOC = C8  |>
+   [P8_PIN_Verified.ucf(39)]: NET "dip_switch2[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[4]" LOC = C8  |> [P8_PIN_Verified.ucf(39)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(39)]: NET "dip_switch2[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[3]" LOC = D8  |>
+   [P8_PIN_Verified.ucf(40)]: NET "dip_switch2[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[3]" LOC = D8  |> [P8_PIN_Verified.ucf(40)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(40)]: NET "dip_switch2[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[2]" LOC = C7  |>
+   [P8_PIN_Verified.ucf(41)]: NET "dip_switch2[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[2]" LOC = C7  |> [P8_PIN_Verified.ucf(41)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(41)]: NET "dip_switch2[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[1]" LOC = D7  |>
+   [P8_PIN_Verified.ucf(42)]: NET "dip_switch2[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[1]" LOC = D7  |> [P8_PIN_Verified.ucf(42)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(42)]: NET "dip_switch2[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch2[0]" LOC = B6  |>
+   [P8_PIN_Verified.ucf(43)]: NET "dip_switch2[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch2[0]" LOC = B6  |> [P8_PIN_Verified.ucf(43)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(43)]: NET "dip_switch2[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[7]" LOC = A16 |>
+   [P8_PIN_Verified.ucf(44)]: NET "dip_switch3[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[7]" LOC = A16 |> [P8_PIN_Verified.ucf(44)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(44)]: NET "dip_switch3[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[6]" LOC = C14 |>
+   [P8_PIN_Verified.ucf(45)]: NET "dip_switch3[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[6]" LOC = C14 |> [P8_PIN_Verified.ucf(45)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(45)]: NET "dip_switch3[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[5]" LOC = A14 |>
+   [P8_PIN_Verified.ucf(46)]: NET "dip_switch3[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[5]" LOC = A14 |> [P8_PIN_Verified.ucf(46)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(46)]: NET "dip_switch3[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[4]" LOC = E14 |>
+   [P8_PIN_Verified.ucf(47)]: NET "dip_switch3[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[4]" LOC = E14 |> [P8_PIN_Verified.ucf(47)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(47)]: NET "dip_switch3[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[3]" LOC = F13 |>
+   [P8_PIN_Verified.ucf(48)]: NET "dip_switch3[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[3]" LOC = F13 |> [P8_PIN_Verified.ucf(48)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(48)]: NET "dip_switch3[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[2]" LOC = C13 |>
+   [P8_PIN_Verified.ucf(49)]: NET "dip_switch3[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[2]" LOC = C13 |> [P8_PIN_Verified.ucf(49)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(49)]: NET "dip_switch3[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[1]" LOC = D12 |>
+   [P8_PIN_Verified.ucf(50)]: NET "dip_switch3[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[1]" LOC = D12 |> [P8_PIN_Verified.ucf(50)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(50)]: NET "dip_switch3[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch3[0]" LOC = C11 |>
+   [P8_PIN_Verified.ucf(51)]: NET "dip_switch3[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch3[0]" LOC = C11 |> [P8_PIN_Verified.ucf(51)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(51)]: NET "dip_switch3[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[7]" LOC = C3  |>
+   [P8_PIN_Verified.ucf(52)]: NET "dip_switch4[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[7]" LOC = C3  |> [P8_PIN_Verified.ucf(52)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(52)]: NET "dip_switch4[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[6]" LOC = H8  |>
+   [P8_PIN_Verified.ucf(53)]: NET "dip_switch4[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[6]" LOC = H8  |> [P8_PIN_Verified.ucf(53)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(53)]: NET "dip_switch4[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[5]" LOC = F5  |>
+   [P8_PIN_Verified.ucf(54)]: NET "dip_switch4[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[5]" LOC = F5  |> [P8_PIN_Verified.ucf(54)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(54)]: NET "dip_switch4[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[4]" LOC = H6  |>
+   [P8_PIN_Verified.ucf(55)]: NET "dip_switch4[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[4]" LOC = H6  |> [P8_PIN_Verified.ucf(55)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(55)]: NET "dip_switch4[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[3]" LOC = E2  |>
+   [P8_PIN_Verified.ucf(56)]: NET "dip_switch4[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[3]" LOC = E2  |> [P8_PIN_Verified.ucf(56)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(56)]: NET "dip_switch4[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[2]" LOC = G4  |>
+   [P8_PIN_Verified.ucf(57)]: NET "dip_switch4[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[2]" LOC = G4  |> [P8_PIN_Verified.ucf(57)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(57)]: NET "dip_switch4[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[1]" LOC = G2  |>
+   [P8_PIN_Verified.ucf(58)]: NET "dip_switch4[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[1]" LOC = G2  |> [P8_PIN_Verified.ucf(58)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(58)]: NET "dip_switch4[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch4[0]" LOC = G1  |>
+   [P8_PIN_Verified.ucf(59)]: NET "dip_switch4[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch4[0]" LOC = G1  |> [P8_PIN_Verified.ucf(59)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(59)]: NET "dip_switch4[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[7]" LOC = D6  |>
+   [P8_PIN_Verified.ucf(60)]: NET "dip_switch5[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[7]" LOC = D6  |> [P8_PIN_Verified.ucf(60)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(60)]: NET "dip_switch5[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[6]" LOC = C5  |>
+   [P8_PIN_Verified.ucf(61)]: NET "dip_switch5[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[6]" LOC = C5  |> [P8_PIN_Verified.ucf(61)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(61)]: NET "dip_switch5[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[5]" LOC = D5  |>
+   [P8_PIN_Verified.ucf(62)]: NET "dip_switch5[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[5]" LOC = D5  |> [P8_PIN_Verified.ucf(62)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(62)]: NET "dip_switch5[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[4]" LOC = C4  |>
+   [P8_PIN_Verified.ucf(63)]: NET "dip_switch5[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[4]" LOC = C4  |> [P8_PIN_Verified.ucf(63)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(63)]: NET "dip_switch5[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[3]" LOC = A4  |>
+   [P8_PIN_Verified.ucf(64)]: NET "dip_switch5[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[3]" LOC = A4  |> [P8_PIN_Verified.ucf(64)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(64)]: NET "dip_switch5[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[2]" LOC = B4  |>
+   [P8_PIN_Verified.ucf(65)]: NET "dip_switch5[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[2]" LOC = B4  |> [P8_PIN_Verified.ucf(65)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(65)]: NET "dip_switch5[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[1]" LOC = A2  |>
+   [P8_PIN_Verified.ucf(66)]: NET "dip_switch5[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[1]" LOC = A2  |> [P8_PIN_Verified.ucf(66)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(66)]: NET "dip_switch5[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch5[0]" LOC = E5  |>
+   [P8_PIN_Verified.ucf(67)]: NET "dip_switch5[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch5[0]" LOC = E5  |> [P8_PIN_Verified.ucf(67)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(67)]: NET "dip_switch5[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[7]" LOC = J10 |>
+   [P8_PIN_Verified.ucf(68)]: NET "dip_switch6[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[7]" LOC = J10 |> [P8_PIN_Verified.ucf(68)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(68)]: NET "dip_switch6[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[6]" LOC = G7  |>
+   [P8_PIN_Verified.ucf(69)]: NET "dip_switch6[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[6]" LOC = G7  |> [P8_PIN_Verified.ucf(69)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(69)]: NET "dip_switch6[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[5]" LOC = C6  |>
+   [P8_PIN_Verified.ucf(70)]: NET "dip_switch6[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[5]" LOC = C6  |> [P8_PIN_Verified.ucf(70)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(70)]: NET "dip_switch6[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[4]" LOC = A8  |>
+   [P8_PIN_Verified.ucf(71)]: NET "dip_switch6[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[4]" LOC = A8  |> [P8_PIN_Verified.ucf(71)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(71)]: NET "dip_switch6[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[3]" LOC = B8  |>
+   [P8_PIN_Verified.ucf(72)]: NET "dip_switch6[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[3]" LOC = B8  |> [P8_PIN_Verified.ucf(72)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(72)]: NET "dip_switch6[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[2]" LOC = A7  |>
+   [P8_PIN_Verified.ucf(73)]: NET "dip_switch6[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[2]" LOC = A7  |> [P8_PIN_Verified.ucf(73)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(73)]: NET "dip_switch6[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[1]" LOC = A5  |>
+   [P8_PIN_Verified.ucf(74)]: NET "dip_switch6[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[1]" LOC = A5  |> [P8_PIN_Verified.ucf(74)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(74)]: NET "dip_switch6[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch6[0]" LOC = A6  |>
+   [P8_PIN_Verified.ucf(75)]: NET "dip_switch6[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch6[0]" LOC = A6  |> [P8_PIN_Verified.ucf(75)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(75)]: NET "dip_switch6[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[7]" LOC = A13 |>
+   [P8_PIN_Verified.ucf(76)]: NET "dip_switch7[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[7]" LOC = A13 |> [P8_PIN_Verified.ucf(76)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(76)]: NET "dip_switch7[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[6]" LOC = A12 |>
+   [P8_PIN_Verified.ucf(77)]: NET "dip_switch7[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[6]" LOC = A12 |> [P8_PIN_Verified.ucf(77)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(77)]: NET "dip_switch7[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[5]" LOC = C12 |>
+   [P8_PIN_Verified.ucf(78)]: NET "dip_switch7[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[5]" LOC = C12 |> [P8_PIN_Verified.ucf(78)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(78)]: NET "dip_switch7[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[4]" LOC = F11 |>
+   [P8_PIN_Verified.ucf(79)]: NET "dip_switch7[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[4]" LOC = F11 |> [P8_PIN_Verified.ucf(79)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(79)]: NET "dip_switch7[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[3]" LOC = C10 |>
+   [P8_PIN_Verified.ucf(80)]: NET "dip_switch7[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[3]" LOC = C10 |> [P8_PIN_Verified.ucf(80)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(80)]: NET "dip_switch7[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[2]" LOC = F10 |>
+   [P8_PIN_Verified.ucf(81)]: NET "dip_switch7[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[2]" LOC = F10 |> [P8_PIN_Verified.ucf(81)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(81)]: NET "dip_switch7[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[1]" LOC = B10 |>
+   [P8_PIN_Verified.ucf(82)]: NET "dip_switch7[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[1]" LOC = B10 |> [P8_PIN_Verified.ucf(82)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(82)]: NET "dip_switch7[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "dip_switch7[0]" LOC = F9  |>
+   [P8_PIN_Verified.ucf(83)]: NET "dip_switch7[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "dip_switch7[0]" LOC = F9  |> [P8_PIN_Verified.ucf(83)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(83)]: NET "dip_switch7[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[0]" LOC = K5 |>
+   [P8_PIN_Verified.ucf(88)]: NET "user_key[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[0]" LOC = K5 |> [P8_PIN_Verified.ucf(88)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(88)]: NET "user_key[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[1]" LOC = K8 |>
+   [P8_PIN_Verified.ucf(89)]: NET "user_key[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[1]" LOC = K8 |> [P8_PIN_Verified.ucf(89)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(89)]: NET "user_key[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[2]" LOC = L1 |>
+   [P8_PIN_Verified.ucf(90)]: NET "user_key[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[2]" LOC = L1 |> [P8_PIN_Verified.ucf(90)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(90)]: NET "user_key[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[3]" LOC = L2 |>
+   [P8_PIN_Verified.ucf(91)]: NET "user_key[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[3]" LOC = L2 |> [P8_PIN_Verified.ucf(91)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(91)]: NET "user_key[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[4]" LOC = K1 |>
+   [P8_PIN_Verified.ucf(92)]: NET "user_key[4]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[4]" LOC = K1 |> [P8_PIN_Verified.ucf(92)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(92)]: NET "user_key[4]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[5]" LOC = J1 |>
+   [P8_PIN_Verified.ucf(93)]: NET "user_key[5]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[5]" LOC = J1 |> [P8_PIN_Verified.ucf(93)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(93)]: NET "user_key[5]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[6]" LOC = J7 |>
+   [P8_PIN_Verified.ucf(94)]: NET "user_key[6]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[6]" LOC = J7 |> [P8_PIN_Verified.ucf(94)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(94)]: NET "user_key[6]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "user_key[7]" LOC = D3 |>
+   [P8_PIN_Verified.ucf(95)]: NET "user_key[7]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "user_key[7]" LOC = D3 |> [P8_PIN_Verified.ucf(95)]' could not be found
+   and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(95)]: NET "user_key[7]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[0]"   LOC = L9  |>
+   [P8_PIN_Verified.ucf(101)]: NET "led_light[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[0]"   LOC = L9  |> [P8_PIN_Verified.ucf(101)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(101)]: NET "led_light[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[1]"   LOC = K9  |>
+   [P8_PIN_Verified.ucf(102)]: NET "led_light[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[1]"   LOC = K9  |> [P8_PIN_Verified.ucf(102)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(102)]: NET "led_light[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[2]"   LOC = N1  |>
+   [P8_PIN_Verified.ucf(103)]: NET "led_light[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[2]"   LOC = N1  |> [P8_PIN_Verified.ucf(103)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(103)]: NET "led_light[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[3]"   LOC = N2  |>
+   [P8_PIN_Verified.ucf(104)]: NET "led_light[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[3]"   LOC = N2  |> [P8_PIN_Verified.ucf(104)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(104)]: NET "led_light[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[4]"   LOC = M1  |>
+   [P8_PIN_Verified.ucf(105)]: NET "led_light[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[4]"   LOC = M1  |> [P8_PIN_Verified.ucf(105)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(105)]: NET "led_light[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[5]"   LOC = M3  |>
+   [P8_PIN_Verified.ucf(106)]: NET "led_light[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[5]"   LOC = M3  |> [P8_PIN_Verified.ucf(106)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(106)]: NET "led_light[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[6]"   LOC = L8  |>
+   [P8_PIN_Verified.ucf(107)]: NET "led_light[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[6]"   LOC = L8  |> [P8_PIN_Verified.ucf(107)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(107)]: NET "led_light[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[7]"   LOC = K7  |>
+   [P8_PIN_Verified.ucf(108)]: NET "led_light[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[7]"   LOC = K7  |> [P8_PIN_Verified.ucf(108)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(108)]: NET "led_light[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[8]"   LOC = K6  |>
+   [P8_PIN_Verified.ucf(109)]: NET "led_light[8]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[8]"   LOC = K6  |> [P8_PIN_Verified.ucf(109)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(109)]: NET "led_light[8]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[9]"   LOC = K3  |>
+   [P8_PIN_Verified.ucf(110)]: NET "led_light[9]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[9]"   LOC = K3  |> [P8_PIN_Verified.ucf(110)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(110)]: NET "led_light[9]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[10]"  LOC = J4  |>
+   [P8_PIN_Verified.ucf(111)]: NET "led_light[10]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[10]"  LOC = J4  |> [P8_PIN_Verified.ucf(111)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(111)]: NET "led_light[10]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[11]"  LOC = J3  |>
+   [P8_PIN_Verified.ucf(112)]: NET "led_light[11]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[11]"  LOC = J3  |> [P8_PIN_Verified.ucf(112)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(112)]: NET "led_light[11]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[12]"  LOC = J5  |>
+   [P8_PIN_Verified.ucf(113)]: NET "led_light[12]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[12]"  LOC = J5  |> [P8_PIN_Verified.ucf(113)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(113)]: NET "led_light[12]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[13]"  LOC = J2  |>
+   [P8_PIN_Verified.ucf(114)]: NET "led_light[13]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[13]"  LOC = J2  |> [P8_PIN_Verified.ucf(114)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(114)]: NET "led_light[13]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[14]"  LOC = H5  |>
+   [P8_PIN_Verified.ucf(115)]: NET "led_light[14]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[14]"  LOC = H5  |> [P8_PIN_Verified.ucf(115)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(115)]: NET "led_light[14]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[15]"  LOC = H1  |>
+   [P8_PIN_Verified.ucf(116)]: NET "led_light[15]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[15]"  LOC = H1  |> [P8_PIN_Verified.ucf(116)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(116)]: NET "led_light[15]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[16]"  LOC = E9  |>
+   [P8_PIN_Verified.ucf(117)]: NET "led_light[16]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[16]"  LOC = E9  |> [P8_PIN_Verified.ucf(117)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(117)]: NET "led_light[16]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[17]"  LOC = D10 |>
+   [P8_PIN_Verified.ucf(118)]: NET "led_light[17]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[17]"  LOC = D10 |> [P8_PIN_Verified.ucf(118)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(118)]: NET "led_light[17]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[18]"  LOC = A11 |>
+   [P8_PIN_Verified.ucf(119)]: NET "led_light[18]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[18]"  LOC = A11 |> [P8_PIN_Verified.ucf(119)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(119)]: NET "led_light[18]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[19]"  LOC = A10 |>
+   [P8_PIN_Verified.ucf(120)]: NET "led_light[19]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[19]"  LOC = A10 |> [P8_PIN_Verified.ucf(120)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(120)]: NET "led_light[19]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[20]"  LOC = D11 |>
+   [P8_PIN_Verified.ucf(121)]: NET "led_light[20]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[20]"  LOC = D11 |> [P8_PIN_Verified.ucf(121)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(121)]: NET "led_light[20]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[21]"  LOC = E10 |>
+   [P8_PIN_Verified.ucf(122)]: NET "led_light[21]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[21]"  LOC = E10 |> [P8_PIN_Verified.ucf(122)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(122)]: NET "led_light[21]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[22]"  LOC = D14 |>
+   [P8_PIN_Verified.ucf(123)]: NET "led_light[22]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[22]"  LOC = D14 |> [P8_PIN_Verified.ucf(123)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(123)]: NET "led_light[22]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[23]"  LOC = A15 |>
+   [P8_PIN_Verified.ucf(124)]: NET "led_light[23]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[23]"  LOC = A15 |> [P8_PIN_Verified.ucf(124)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(124)]: NET "led_light[23]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[24]"  LOC = G16 |>
+   [P8_PIN_Verified.ucf(125)]: NET "led_light[24]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[24]"  LOC = G16 |> [P8_PIN_Verified.ucf(125)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(125)]: NET "led_light[24]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[25]"  LOC = B14 |>
+   [P8_PIN_Verified.ucf(126)]: NET "led_light[25]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[25]"  LOC = B14 |> [P8_PIN_Verified.ucf(126)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(126)]: NET "led_light[25]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[26]"  LOC = F15 |>
+   [P8_PIN_Verified.ucf(127)]: NET "led_light[26]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[26]"  LOC = F15 |> [P8_PIN_Verified.ucf(127)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(127)]: NET "led_light[26]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[27]"  LOC = D15 |>
+   [P8_PIN_Verified.ucf(128)]: NET "led_light[27]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[27]"  LOC = D15 |> [P8_PIN_Verified.ucf(128)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(128)]: NET "led_light[27]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[28]"  LOC = B16 |>
+   [P8_PIN_Verified.ucf(129)]: NET "led_light[28]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[28]"  LOC = B16 |> [P8_PIN_Verified.ucf(129)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(129)]: NET "led_light[28]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[29]"  LOC = D16 |>
+   [P8_PIN_Verified.ucf(130)]: NET "led_light[29]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[29]"  LOC = D16 |> [P8_PIN_Verified.ucf(130)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(130)]: NET "led_light[29]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[30]"  LOC = C16 |>
+   [P8_PIN_Verified.ucf(131)]: NET "led_light[30]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[30]"  LOC = C16 |> [P8_PIN_Verified.ucf(131)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(131)]: NET "led_light[30]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "led_light[31]"  LOC = B18 |>
+   [P8_PIN_Verified.ucf(132)]: NET "led_light[31]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "led_light[31]"  LOC = B18 |> [P8_PIN_Verified.ucf(132)]' could not be
+   found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(132)]: NET "led_light[31]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[7]"   LOC = D19 |>
+   [P8_PIN_Verified.ucf(137)]: NET "digital_tube2[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[7]"   LOC = D19 |> [P8_PIN_Verified.ucf(137)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(137)]: NET "digital_tube2[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[6]"   LOC = B20 |>
+   [P8_PIN_Verified.ucf(138)]: NET "digital_tube2[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[6]"   LOC = B20 |> [P8_PIN_Verified.ucf(138)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(138)]: NET "digital_tube2[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[5]"   LOC = D21 |>
+   [P8_PIN_Verified.ucf(139)]: NET "digital_tube2[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[5]"   LOC = D21 |> [P8_PIN_Verified.ucf(139)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(139)]: NET "digital_tube2[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[4]"   LOC = D20 |>
+   [P8_PIN_Verified.ucf(140)]: NET "digital_tube2[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[4]"   LOC = D20 |> [P8_PIN_Verified.ucf(140)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(140)]: NET "digital_tube2[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[3]"   LOC = H15 |>
+   [P8_PIN_Verified.ucf(141)]: NET "digital_tube2[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[3]"   LOC = H15 |> [P8_PIN_Verified.ucf(141)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(141)]: NET "digital_tube2[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[2]"   LOC = B22 |>
+   [P8_PIN_Verified.ucf(142)]: NET "digital_tube2[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[2]"   LOC = B22 |> [P8_PIN_Verified.ucf(142)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(142)]: NET "digital_tube2[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[1]"   LOC = A21 |>
+   [P8_PIN_Verified.ucf(143)]: NET "digital_tube2[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[1]"   LOC = A21 |> [P8_PIN_Verified.ucf(143)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(143)]: NET "digital_tube2[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube2[0]"   LOC = A22 |>
+   [P8_PIN_Verified.ucf(144)]: NET "digital_tube2[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube2[0]"   LOC = A22 |> [P8_PIN_Verified.ucf(144)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(144)]: NET "digital_tube2[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel2"  LOC = J17 |>
+   [P8_PIN_Verified.ucf(145)]: NET "digital_tube_sel2" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel2"  LOC = J17 |> [P8_PIN_Verified.ucf(145)]' could not
+   be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(145)]: NET "digital_tube_sel2" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[7]"      LOC = A20 
+   |> [P8_PIN_Verified.ucf(147)]: NET "digital_tube1[7]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[7]"      LOC = A20  |> [P8_PIN_Verified.ucf(147)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(147)]: NET "digital_tube1[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[6]"      LOC = E19 
+   |> [P8_PIN_Verified.ucf(148)]: NET "digital_tube1[6]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[6]"      LOC = E19  |> [P8_PIN_Verified.ucf(148)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(148)]: NET "digital_tube1[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[5]"      LOC = E20 
+   |> [P8_PIN_Verified.ucf(149)]: NET "digital_tube1[5]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[5]"      LOC = E20  |> [P8_PIN_Verified.ucf(149)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(149)]: NET "digital_tube1[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[4]"      LOC = A19 
+   |> [P8_PIN_Verified.ucf(150)]: NET "digital_tube1[4]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[4]"      LOC = A19  |> [P8_PIN_Verified.ucf(150)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(150)]: NET "digital_tube1[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[3]"      LOC = F17 
+   |> [P8_PIN_Verified.ucf(151)]: NET "digital_tube1[3]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[3]"      LOC = F17  |> [P8_PIN_Verified.ucf(151)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(151)]: NET "digital_tube1[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[2]"      LOC = E18 
+   |> [P8_PIN_Verified.ucf(152)]: NET "digital_tube1[2]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[2]"      LOC = E18  |> [P8_PIN_Verified.ucf(152)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(152)]: NET "digital_tube1[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[1]"      LOC = C21 
+   |> [P8_PIN_Verified.ucf(153)]: NET "digital_tube1[1]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[1]"      LOC = C21  |> [P8_PIN_Verified.ucf(153)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(153)]: NET "digital_tube1[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube1[0]"      LOC = C17 
+   |> [P8_PIN_Verified.ucf(154)]: NET "digital_tube1[0]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube1[0]"      LOC = C17  |> [P8_PIN_Verified.ucf(154)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(154)]: NET "digital_tube1[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel1[0]"  LOC = G17 
+   |> [P8_PIN_Verified.ucf(155)]: NET "digital_tube_sel1[0]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel1[0]"  LOC = G17  |> [P8_PIN_Verified.ucf(155)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(155)]: NET "digital_tube_sel1[0]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel1[1]"  LOC = C19 
+   |> [P8_PIN_Verified.ucf(156)]: NET "digital_tube_sel1[1]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel1[1]"  LOC = C19  |> [P8_PIN_Verified.ucf(156)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(156)]: NET "digital_tube_sel1[1]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel1[2]"  LOC = F18 
+   |> [P8_PIN_Verified.ucf(157)]: NET "digital_tube_sel1[2]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel1[2]"  LOC = F18  |> [P8_PIN_Verified.ucf(157)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(157)]: NET "digital_tube_sel1[2]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel1[3]"  LOC = C20 
+   |> [P8_PIN_Verified.ucf(158)]: NET "digital_tube_sel1[3]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel1[3]"  LOC = C20  |> [P8_PIN_Verified.ucf(158)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(158)]: NET "digital_tube_sel1[3]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[7]"      LOC = E17 
+   |> [P8_PIN_Verified.ucf(160)]: NET "digital_tube0[7]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[7]"      LOC = E17  |> [P8_PIN_Verified.ucf(160)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(160)]: NET "digital_tube0[7]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[6]"      LOC = J14 
+   |> [P8_PIN_Verified.ucf(161)]: NET "digital_tube0[6]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[6]"      LOC = J14  |> [P8_PIN_Verified.ucf(161)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(161)]: NET "digital_tube0[6]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[5]"      LOC = B12 
+   |> [P8_PIN_Verified.ucf(162)]: NET "digital_tube0[5]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[5]"      LOC = B12  |> [P8_PIN_Verified.ucf(162)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(162)]: NET "digital_tube0[5]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[4]"      LOC = F16 
+   |> [P8_PIN_Verified.ucf(163)]: NET "digital_tube0[4]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[4]"      LOC = F16  |> [P8_PIN_Verified.ucf(163)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(163)]: NET "digital_tube0[4]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[3]"      LOC = C18 
+   |> [P8_PIN_Verified.ucf(164)]: NET "digital_tube0[3]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[3]"      LOC = C18  |> [P8_PIN_Verified.ucf(164)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(164)]: NET "digital_tube0[3]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[2]"      LOC = D18 
+   |> [P8_PIN_Verified.ucf(165)]: NET "digital_tube0[2]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[2]"      LOC = D18  |> [P8_PIN_Verified.ucf(165)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(165)]: NET "digital_tube0[2]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[1]"      LOC = D13 
+   |> [P8_PIN_Verified.ucf(166)]: NET "digital_tube0[1]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[1]"      LOC = D13  |> [P8_PIN_Verified.ucf(166)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(166)]: NET "digital_tube0[1]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube0[0]"      LOC = A18 
+   |> [P8_PIN_Verified.ucf(167)]: NET "digital_tube0[0]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube0[0]"      LOC = A18  |> [P8_PIN_Verified.ucf(167)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(167)]: NET "digital_tube0[0]" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel0[0]"  LOC = E16 
+   |> [P8_PIN_Verified.ucf(168)]: NET "digital_tube_sel0[0]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel0[0]"  LOC = E16  |> [P8_PIN_Verified.ucf(168)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(168)]: NET "digital_tube_sel0[0]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel0[1]"  LOC = A17 
+   |> [P8_PIN_Verified.ucf(169)]: NET "digital_tube_sel0[1]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel0[1]"  LOC = A17  |> [P8_PIN_Verified.ucf(169)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(169)]: NET "digital_tube_sel0[1]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel0[2]"  LOC = C15 
+   |> [P8_PIN_Verified.ucf(170)]: NET "digital_tube_sel0[2]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel0[2]"  LOC = C15  |> [P8_PIN_Verified.ucf(170)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(170)]: NET "digital_tube_sel0[2]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "digital_tube_sel0[3]"  LOC = G14 
+   |> [P8_PIN_Verified.ucf(171)]: NET "digital_tube_sel0[3]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "digital_tube_sel0[3]"  LOC = G14  |> [P8_PIN_Verified.ucf(171)]' could
+   not be found and so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33;>
+   [P8_PIN_Verified.ucf(171)]: NET "digital_tube_sel0[3]" not found.  Please
+   verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "clk_in" CLOCK_DEDICATED_ROUTE =
+   FALSE;> [P8_PIN_Verified.ucf(176)]: NET "clk_in" not found.  Please verify
+   that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "clk_in" TNM_NET = "clk_in";>
+   [P8_PIN_Verified.ucf(177)]: NET "clk_in" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_clk_in = PERIOD "clk_in"
+   40 ns;> [P8_PIN_Verified.ucf(178)]: Unable to find an active 'TNM' or
+   'TimeGrp' constraint named 'clk_in'.
+
+WARNING:ConstraintSystem:191 - The TNM 'clk_in', does not directly or indirectly
+   drive any flip-flops, latches and/or RAMS and cannot be actively used by the
+   referencing Period constraint 'TS_clk_in'. If clock manager blocks are
+   directly or indirectly driven, a new TNM constraint will not be derived even
+   though the referencing constraint is a PERIOD constraint unless an output of
+   the clock manager drives flip-flops, latches or RAMs. This TNM is used in the
+   following user PERIOD specification:
+   <TIMESPEC TS_clk_in = PERIOD "clk_in" 40 ns;> [P8_PIN_Verified.ucf(178)]
+
+WARNING:ConstraintSystem:197 - The following specification is invalid because
+   the referenced TNM constraint was removed:
+   <TIMESPEC TS_clk_in = PERIOD "clk_in" 40 ns;> [P8_PIN_Verified.ucf(178)]
+
+Done...
+
+Checking expanded design ...
+ERROR:NgdBuild:455 - logical net 'clk' has multiple driver(s):
+     pin O on block clk_INV_0 with type INV,
+     pin PAD on block clk with type PAD
+ERROR:NgdBuild:462 - input pad net 'clk' drives multiple buffers:
+     pin I on block uut/The_Main_Clock/clkin1_buf with type IBUFG,
+     pin I on block clk_INV_0 with type INV
+ERROR:NgdBuild:925 - input net 'clk' is connected to the incorrect side of
+   buffer(s):
+     pin O on block clk_INV_0 with type INV
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:   287
+  Number of warnings: 144
+
+Total memory usage is 170512 kilobytes
+
+Total REAL time to NGDBUILD completion:  8 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "TB.bld"...
