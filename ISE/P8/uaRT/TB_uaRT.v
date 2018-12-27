@@ -38,7 +38,7 @@ module testbench_miniuart() ;
         // set send Divisor Register for 9600 baud !!!
         WB_Write(`OFF_UART_DIVT, `BAUD_SND_115200) ;  /* 0x9 (din) is written to 0x6 (off) */
         // set receive Divisor Register for 9600 baud !!!
-        WB_Write(`OFF_UART_DIVR, `BAUD_SND_115200) ;  /* 0x9 (din) is written to 0x6 (off) */
+        WB_Write(`OFF_UART_DIVR, `BAUD_RCV_115200) ;  /* 0x9 (din) is written to 0x6 (off) */
         // send a Data Register with value !!!
         WB_Write(`OFF_UART_DATA, 32'h37) ;          /* 0x37 (din) is written to 0x0 (off) */
 

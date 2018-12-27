@@ -9,7 +9,7 @@ module Digital(
     output [31:0] RD,
 
     output reg [7:0] digital_tube2,
-	output reg digital_tube_sel2,
+	output digital_tube_sel2,
 	output reg [7:0] digital_tube1,
 	output reg [3:0] digital_tube_sel1,
 	output reg [7:0] digital_tube0,
@@ -23,10 +23,14 @@ module Digital(
     reg [7:0] tube2;    // offset 4
     
     reg [19:0] counter;  // counter: 200 down to 0
-    reg [3:0] data0, data1, data2; // data to be selected
+    reg [3:0] data0, data1; // data to be selected
+    wire [3:0] data2;
     // `define INIT_TIMER 20'd5
     `define INIT_TIMER 20'd50000
     assign RD = (innerADDR >= 3'd4) ? ({24'd0, tube2}) : ({tube1_34, tube1_12, tube0_34, tube0_12});
+
+    assign data2 = tube2[3:0];
+    assign digital_tube_sel2 = 1'b1;
 
     always @(posedge CLK) begin
 		if(RST) begin
@@ -36,9 +40,7 @@ module Digital(
             counter <= `INIT_TIMER;
             data0 <= 4'd0;
             data1 <= 4'd0;
-            data2 <= 4'd0;
 
-            digital_tube_sel2 <= 1'b0;
             digital_tube_sel1 <= 4'b1000;
             digital_tube_sel0 <= 4'b1000;
         end
@@ -98,18 +100,6 @@ module Digital(
                     default: begin
                         digital_tube_sel1 <= 0;
                         data1 <= 0;
-                    end
-                endcase
-                case (digital_tube_sel2)
-                    1'b0: begin
-                        digital_tube_sel2 <= 1'b1;
-                    end
-                    1'b1: begin
-                        digital_tube_sel2 <= 1'b0;
-                    end
-                    default: begin
-                        digital_tube_sel2 <= 0;
-                        data2 <= tube2[3:0];
                     end
                 endcase
             end

@@ -62,6 +62,9 @@ module Timer(
 				end
 			end 
 			`LOAD: begin
+				if(~Enable) begin
+					STATE <= `IDLE;
+				end
 				STATE <= `CNT;
 				COUNT <= INIT;
 			end

@@ -15,7 +15,7 @@
    You must understand its frequency is too low so that only 9600 BAUD
    could be supported!!!*/
 // `define CLK_FRQ             100000      // 100KHz : system clock
-`define CLK_FRQ             50000000      // 50MHz : system clock in FPGA
+`define CLK_FRQ             35000000      //  35MHz  : system clock in FPGA
 `define CYCLE               (1000000000/`CLK_FRQ)
 
 `define     SAMPLE_FREQUENCE        8

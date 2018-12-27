@@ -43,14 +43,11 @@ Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into libr
 Starting static elaboration
 WARNING:HDLCompiler:189 - "D:/BUAA/CS/ComputerOrgan/ISE/P8/Instruction_Fetcher.v" Line 37: Size mismatch in connection of port <addra>. Formal port size is 13-bit while actual signal size is 32-bit.
 Completed static elaboration
-Fuse Memory Usage: 182260 KB
-Fuse CPU Usage: 389 ms
+Fuse Memory Usage: 182388 KB
+Fuse CPU Usage: 468 ms
 Compiling module IBUFG
-Compiling module dcm_sp_clock_divide_by_2
-Compiling module dcm_sp_maximum_period_check(cloc...
-Compiling module dcm_sp_maximum_period_check(cloc...
-Compiling module dcm_sp_clock_lost
-Compiling module DCM_SP(CLKIN_PERIOD=40.0)
+Compiling module PLL_ADV(BANDWIDTH="OPTIMIZED",CL...
+Compiling module PLL_BASE(CLKFBOUT_MULT=28,CLKIN_...
 Compiling module BUFG
 Compiling module Clock
 Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
@@ -100,7 +97,7 @@ Compiling module TB
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
-Compiled 53 Verilog Units
+Compiled 50 Verilog Units
 Built simulation executable D:/BUAA/CS/ComputerOrgan/ISE/P8/TB_isim_beh.exe
-Fuse Memory Usage: 193220 KB
-Fuse CPU Usage: 2671 ms
+Fuse Memory Usage: 197764 KB
+Fuse CPU Usage: 2827 ms

@@ -5,12 +5,12 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_in</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_in</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_SP</arg> instance <arg fmt="%s" index="5">The_Main_Clock/dcm_sp_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_SP</arg> output(s): 
-<arg fmt="%s" index="7">CLK2X</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_The_Main_Clock_clk2x = PERIOD &quot;The_Main_Clock_clk2x&quot; TS_clk_in / 2 HIGH 50%&gt;</arg>
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_in</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_in</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_The_Main_Clock_clkout1 = PERIOD &quot;The_Main_Clock_clkout1&quot; TS_clk_in / 2.8 HIGH 50%&gt;</arg>
 </msg>
 
-<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_in</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_in</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_SP</arg> instance <arg fmt="%s" index="5">The_Main_Clock/dcm_sp_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_SP</arg> output(s): 
-<arg fmt="%s" index="7">CLK0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_The_Main_Clock_clk0 = PERIOD &quot;The_Main_Clock_clk0&quot; TS_clk_in HIGH 50%&gt;</arg>
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_in</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_in</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_The_Main_Clock_clkout0 = PERIOD &quot;The_Main_Clock_clkout0&quot; TS_clk_in / 1.4 HIGH 50%&gt;</arg>
 </msg>
 
 </messages>

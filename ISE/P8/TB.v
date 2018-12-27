@@ -63,19 +63,19 @@ module TB;
 
 	initial begin
 		clk = 0;
+		reset = 0;		// Online Style Reset !!!
+		#150;
 		reset = 1;
-		#10;
-		reset = 0;
 
 		user_key    = 8'b00000010;
 		dip_switch0 = 8'b11110000;
 		dip_switch1 = 8'b00001111;
 		dip_switch2 = 8'b11100111;
 		dip_switch3 = 8'b00011000;
-		dip_switch4 = 8'b11000011;
-		dip_switch5 = 8'b00111100;
-		dip_switch6 = 8'b10000001;
-		dip_switch7 = 8'b01111110;
+		dip_switch4 = 8'b11000011;	// Simulation of Timer (Task 2) !
+		dip_switch5 = 8'b11111111;
+		dip_switch6 = 8'b11111111;
+		dip_switch7 = 8'b11111111;
 		
 		uart_rxd = 0;
 	end

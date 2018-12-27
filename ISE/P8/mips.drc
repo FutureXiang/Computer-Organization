@@ -1,20 +1,20 @@
 Release 14.7 Drc P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Wed Dec 26 22:32:58 2018
+Thu Dec 27 22:03:13 2018
 
 drc -z mips.ncd mips.pcf
 
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   CPU/MF_mux_sig/GetRes/IDEX[31]_GND_59_o_Select_31_o is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
    CPU/MF_mux_sig/GetRes/EXMEM[31]_GND_59_o_Select_64_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
    CPU/MF_mux_sig/GetRes/MEMWB[31]_GND_59_o_Select_97_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   CPU/MF_mux_sig/GetRes/IDEX[31]_GND_59_o_Select_31_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 DRC detected 0 errors and 3 warnings.  Please see the previously displayed

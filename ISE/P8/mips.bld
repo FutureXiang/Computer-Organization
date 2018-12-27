@@ -15,18 +15,16 @@ Annotating constraints to design from ucf file "P8_PIN_Verified.ucf" ...
 Resolving constraint associations...
 Checking Constraint Associations...
 INFO:ConstraintSystem:178 - TNM 'clk_in', used in period specification
-   'TS_clk_in', was traced into DCM_SP instance The_Main_Clock/dcm_sp_inst. The
-   following new TNM groups and period specifications were generated at the
-   DCM_SP output(s): 
-   CLK2X: <TIMESPEC TS_The_Main_Clock_clk2x = PERIOD "The_Main_Clock_clk2x"
-   TS_clk_in / 2 HIGH 50%>
+   'TS_clk_in', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_The_Main_Clock_clkout1 = PERIOD
+   "The_Main_Clock_clkout1" TS_clk_in / 2.8 HIGH 50%>
 
 INFO:ConstraintSystem:178 - TNM 'clk_in', used in period specification
-   'TS_clk_in', was traced into DCM_SP instance The_Main_Clock/dcm_sp_inst. The
-   following new TNM groups and period specifications were generated at the
-   DCM_SP output(s): 
-   CLK0: <TIMESPEC TS_The_Main_Clock_clk0 = PERIOD "The_Main_Clock_clk0"
-   TS_clk_in HIGH 50%>
+   'TS_clk_in', was traced into PLL_ADV instance PLL_ADV. The following new TNM
+   groups and period specifications were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_The_Main_Clock_clkout0 = PERIOD
+   "The_Main_Clock_clkout0" TS_clk_in / 1.4 HIGH 50%>
 
 Done...
 
@@ -43,7 +41,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 170128 kilobytes
+Total memory usage is 171280 kilobytes
 
 Writing NGD file "mips.ngd" ...
 Total REAL time to NGDBUILD completion:  4 sec
