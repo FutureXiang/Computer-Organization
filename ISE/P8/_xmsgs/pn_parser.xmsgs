@@ -8,5 +8,127 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/ALU.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/BitEnable.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/Bridge.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/Buttons.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/CMP.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/CP0.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/CPU.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/Controller.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA/CS/ComputerOrgan/ISE/P8/Controller.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA/CS/ComputerOrgan/ISE/P8/Instructions.v&apos; in file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/Controller.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/DataMemory.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/Digital.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/EXMEM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/Forward_Controller.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/GRF.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/IDEX.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/IFID.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/ImmCalc.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/Instruction_Fetcher.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/LED.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/LoadMem.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/MEMWB.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/MemCoder.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/MemExceptionDetect.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/NextPC.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/Res_Translator.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/SaveMem.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/Stall_Detector.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/Switches.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/Timer.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/mips.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/TB_uaRT.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/TB_uaRT.v</arg>&quot; Line <arg fmt="%d" index="2">1</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/head_uart.v&apos; in file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/TB_uaRT.v&quot; line 1
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/rxd.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/rxd.v</arg>&quot; Line <arg fmt="%d" index="2">9</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/head_uart.v&apos; in file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/rxd.v&quot; line 9
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/txd.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/txd.v</arg>&quot; Line <arg fmt="%d" index="2">14</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/head_uart.v&apos; in file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/txd.v&quot; line 14
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/uart.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/uart.v</arg>&quot; Line <arg fmt="%d" index="2">12</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/head_uart.v&apos; in file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/uart.v&quot; line 12
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/BUAA/CS/ComputerOrgan/ISE/P8/uaRT/utils.v&quot; into library work</arg>
+</msg>
+
 </messages>
 

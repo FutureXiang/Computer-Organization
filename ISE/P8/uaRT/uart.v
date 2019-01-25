@@ -63,8 +63,10 @@ module  MiniUART( ADD_I, DAT_I, DAT_O, STB_I, WE_I, CLK_I, RST_I, ACK_O, RxD, Tx
         if ( RST_I )
             begin
                 tx_data <= 0 ;
-                divr    <= `BAUD_RCV_115200 ;
-                divt    <= `BAUD_SND_115200 ;
+                // divr    <= `BAUD_RCV_115200 ;
+                divr    <= `BAUD_RCV_9600 ;
+                // divt    <= `BAUD_SND_115200 ;
+                divt    <= `BAUD_SND_9600 ;
             end
         else if ( STB_I & WE_I )
             case ( ADD_I )

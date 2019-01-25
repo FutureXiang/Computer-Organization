@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="grf"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="grf">
+    <a name="circuit" val="grf"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(740,620)" to="(740,630)"/>
+    <wire from="(750,790)" to="(750,800)"/>
+    <wire from="(520,680)" to="(520,690)"/>
+    <wire from="(1040,440)" to="(1040,450)"/>
+    <wire from="(1030,270)" to="(1030,280)"/>
+    <wire from="(880,440)" to="(880,450)"/>
+    <wire from="(260,660)" to="(260,680)"/>
+    <wire from="(1820,620)" to="(1820,630)"/>
+    <wire from="(1830,270)" to="(1830,280)"/>
+    <wire from="(1680,440)" to="(1680,450)"/>
+    <wire from="(1670,270)" to="(1670,280)"/>
+    <wire from="(1670,790)" to="(1670,800)"/>
+    <wire from="(1180,620)" to="(1180,630)"/>
+    <wire from="(1190,790)" to="(1190,800)"/>
+    <wire from="(1190,270)" to="(1190,280)"/>
+    <wire from="(1520,440)" to="(1520,450)"/>
+    <wire from="(1380,620)" to="(1380,630)"/>
+    <wire from="(480,690)" to="(520,690)"/>
+    <wire from="(1840,360)" to="(1840,420)"/>
+    <wire from="(860,770)" to="(880,770)"/>
+    <wire from="(850,600)" to="(870,600)"/>
+    <wire from="(700,250)" to="(720,250)"/>
+    <wire from="(1390,190)" to="(1390,250)"/>
+    <wire from="(1390,710)" to="(1390,770)"/>
+    <wire from="(1540,540)" to="(1540,600)"/>
+    <wire from="(1200,360)" to="(1200,420)"/>
+    <wire from="(420,500)" to="(430,500)"/>
+    <wire from="(900,540)" to="(900,600)"/>
+    <wire from="(910,710)" to="(910,770)"/>
+    <wire from="(1790,420)" to="(1810,420)"/>
+    <wire from="(750,190)" to="(750,250)"/>
+    <wire from="(1340,250)" to="(1360,250)"/>
+    <wire from="(1340,770)" to="(1360,770)"/>
+    <wire from="(1490,600)" to="(1510,600)"/>
+    <wire from="(1150,420)" to="(1170,420)"/>
+    <wire from="(730,620)" to="(730,630)"/>
+    <wire from="(740,790)" to="(740,800)"/>
+    <wire from="(740,270)" to="(740,280)"/>
+    <wire from="(900,790)" to="(900,800)"/>
+    <wire from="(1030,440)" to="(1030,450)"/>
+    <wire from="(890,620)" to="(890,630)"/>
+    <wire from="(1830,440)" to="(1830,450)"/>
+    <wire from="(1820,270)" to="(1820,280)"/>
+    <wire from="(1670,440)" to="(1670,450)"/>
+    <wire from="(1190,440)" to="(1190,450)"/>
+    <wire from="(1180,270)" to="(1180,280)"/>
+    <wire from="(1530,620)" to="(1530,630)"/>
+    <wire from="(1380,790)" to="(1380,800)"/>
+    <wire from="(1370,620)" to="(1370,630)"/>
+    <wire from="(1380,270)" to="(1380,280)"/>
+    <wire from="(850,250)" to="(870,250)"/>
+    <wire from="(1000,600)" to="(1020,600)"/>
+    <wire from="(1010,770)" to="(1030,770)"/>
+    <wire from="(1690,540)" to="(1690,600)"/>
+    <wire from="(700,420)" to="(720,420)"/>
+    <wire from="(1390,360)" to="(1390,420)"/>
+    <wire from="(1540,190)" to="(1540,250)"/>
+    <wire from="(1540,710)" to="(1540,770)"/>
+    <wire from="(1050,540)" to="(1050,600)"/>
+    <wire from="(1060,710)" to="(1060,770)"/>
+    <wire from="(900,190)" to="(900,250)"/>
+    <wire from="(1640,600)" to="(1660,600)"/>
+    <wire from="(750,360)" to="(750,420)"/>
+    <wire from="(70,680)" to="(80,680)"/>
+    <wire from="(1340,420)" to="(1360,420)"/>
+    <wire from="(1490,250)" to="(1510,250)"/>
+    <wire from="(1490,770)" to="(1510,770)"/>
+    <wire from="(740,440)" to="(740,450)"/>
+    <wire from="(730,270)" to="(730,280)"/>
+    <wire from="(880,620)" to="(880,630)"/>
+    <wire from="(890,790)" to="(890,800)"/>
+    <wire from="(890,270)" to="(890,280)"/>
+    <wire from="(150,50)" to="(150,60)"/>
+    <wire from="(230,50)" to="(230,60)"/>
+    <wire from="(70,50)" to="(70,60)"/>
+    <wire from="(1820,440)" to="(1820,450)"/>
+    <wire from="(1680,620)" to="(1680,630)"/>
+    <wire from="(80,660)" to="(80,680)"/>
+    <wire from="(1180,440)" to="(1180,450)"/>
+    <wire from="(1040,620)" to="(1040,630)"/>
+    <wire from="(1050,790)" to="(1050,800)"/>
+    <wire from="(1520,620)" to="(1520,630)"/>
+    <wire from="(1530,790)" to="(1530,800)"/>
+    <wire from="(1530,270)" to="(1530,280)"/>
+    <wire from="(1370,270)" to="(1370,280)"/>
+    <wire from="(1380,440)" to="(1380,450)"/>
+    <wire from="(1370,790)" to="(1370,800)"/>
+    <wire from="(1840,540)" to="(1840,600)"/>
+    <wire from="(850,420)" to="(870,420)"/>
+    <wire from="(1000,250)" to="(1020,250)"/>
+    <wire from="(1690,190)" to="(1690,250)"/>
+    <wire from="(1690,710)" to="(1690,770)"/>
+    <wire from="(1540,360)" to="(1540,420)"/>
+    <wire from="(480,520)" to="(480,690)"/>
+    <wire from="(1200,540)" to="(1200,600)"/>
+    <wire from="(1210,710)" to="(1210,770)"/>
+    <wire from="(900,360)" to="(900,420)"/>
+    <wire from="(1050,190)" to="(1050,250)"/>
+    <wire from="(1640,250)" to="(1660,250)"/>
+    <wire from="(1640,770)" to="(1660,770)"/>
+    <wire from="(1790,600)" to="(1810,600)"/>
+    <wire from="(1490,420)" to="(1510,420)"/>
+    <wire from="(1160,770)" to="(1180,770)"/>
+    <wire from="(1150,600)" to="(1170,600)"/>
+    <wire from="(730,440)" to="(730,450)"/>
+    <wire from="(1030,620)" to="(1030,630)"/>
+    <wire from="(1040,270)" to="(1040,280)"/>
+    <wire from="(880,270)" to="(880,280)"/>
+    <wire from="(890,440)" to="(890,450)"/>
+    <wire from="(1670,620)" to="(1670,630)"/>
+    <wire from="(1680,790)" to="(1680,800)"/>
+    <wire from="(1680,270)" to="(1680,280)"/>
+    <wire from="(1830,620)" to="(1830,630)"/>
+    <wire from="(1200,790)" to="(1200,800)"/>
+    <wire from="(1190,620)" to="(1190,630)"/>
+    <wire from="(1040,790)" to="(1040,800)"/>
+    <wire from="(1520,270)" to="(1520,280)"/>
+    <wire from="(1530,440)" to="(1530,450)"/>
+    <wire from="(1520,790)" to="(1520,800)"/>
+    <wire from="(1370,440)" to="(1370,450)"/>
+    <wire from="(1000,420)" to="(1020,420)"/>
+    <wire from="(1690,360)" to="(1690,420)"/>
+    <wire from="(700,600)" to="(720,600)"/>
+    <wire from="(710,770)" to="(730,770)"/>
+    <wire from="(1840,190)" to="(1840,250)"/>
+    <wire from="(1390,540)" to="(1390,600)"/>
+    <wire from="(1050,360)" to="(1050,420)"/>
+    <wire from="(1200,190)" to="(1200,250)"/>
+    <wire from="(250,680)" to="(260,680)"/>
+    <wire from="(1640,420)" to="(1660,420)"/>
+    <wire from="(750,540)" to="(750,600)"/>
+    <wire from="(760,710)" to="(760,770)"/>
+    <wire from="(1790,250)" to="(1810,250)"/>
+    <wire from="(1340,600)" to="(1360,600)"/>
+    <wire from="(1150,250)" to="(1170,250)"/>
+    <comp lib="0" loc="(1050,360)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="6" loc="(1160,159)" name="Text">
+      <a name="text" val="$a0"/>
+      <a name="font" val="Calibri plain 20"/>
+    </comp>
+    <comp lib="0" loc="(240,480)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="14"/>
+    </comp>
+    <comp lib="0" loc="(1640,770)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(1040,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="4" loc="(1540,770)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="30"/>
+    </comp>
+    <comp lib="0" loc="(1050,190)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="4" loc="(1200,420)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="8"/>
+    </comp>
+    <comp lib="0" loc="(850,420)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(60,610)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="27"/>
+    </comp>
+    <comp lib="0" loc="(1540,600)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="26"/>
+    </comp>
+    <comp lib="0" loc="(720,430)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en5"/>
+    </comp>
+    <comp lib="0" loc="(750,360)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(750,420)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1670,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="4" loc="(750,420)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="5"/>
+    </comp>
+    <comp lib="0" loc="(850,600)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(1810,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en20"/>
+    </comp>
+    <comp lib="4" loc="(900,420)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="6"/>
+    </comp>
+    <comp lib="0" loc="(540,410)" name="Tunnel">
+      <a name="label" val="en5"/>
+    </comp>
+    <comp lib="4" loc="(1840,250)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="20"/>
+    </comp>
+    <comp lib="0" loc="(240,340)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="0"/>
+    </comp>
+    <comp lib="0" loc="(60,340)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="0"/>
+    </comp>
+    <comp lib="0" loc="(240,510)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="17"/>
+    </comp>
+    <comp lib="4" loc="(1390,770)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="29"/>
+    </comp>
+    <comp lib="4" loc="(1050,420)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="7"/>
+    </comp>
+    <comp lib="0" loc="(1150,600)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="6" loc="(1350,159)" name="Text">
+      <a name="text" val="$s1"/>
+    </comp>
+    <comp lib="0" loc="(240,440)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="10"/>
+    </comp>
+    <comp lib="0" loc="(540,660)" name="Tunnel">
+      <a name="label" val="en30"/>
+    </comp>
+    <comp lib="0" loc="(1180,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="6" loc="(872,679)" name="Text">
+      <a name="text" val="$t6"/>
+    </comp>
+    <comp lib="0" loc="(60,440)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="10"/>
+    </comp>
+    <comp lib="0" loc="(1490,600)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(410,550)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en"/>
+    </comp>
+    <comp lib="0" loc="(210,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="A2_slt"/>
+    </comp>
+    <comp lib="0" loc="(540,580)" name="Tunnel">
+      <a name="label" val="en22"/>
+    </comp>
+    <comp lib="4" loc="(1690,600)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="27"/>
+    </comp>
+    <comp lib="0" loc="(1690,250)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="19"/>
+    </comp>
+    <comp lib="4" loc="(1840,600)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="28"/>
+    </comp>
+    <comp lib="6" loc="(1159,329)" name="Text">
+      <a name="text" val="$t0"/>
+      <a name="font" val="Calibri plain 20"/>
+    </comp>
+    <comp lib="4" loc="(1840,420)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="24"/>
+    </comp>
+    <comp lib="2" loc="(100,500)" name="Multiplexer">
+      <a name="select" val="5"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(60,650)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="31"/>
+    </comp>
+    <comp lib="0" loc="(1490,250)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(240,600)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="26"/>
+    </comp>
+    <comp lib="4" loc="(750,250)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="1"/>
+    </comp>
+    <comp lib="6" loc="(1352,680)" name="Text">
+      <a name="text" val="$sp"/>
+      <a name="font" val="Calibri plain 20"/>
+    </comp>
+    <comp lib="0" loc="(1060,770)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="15"/>
+    </comp>
+    <comp lib="0" loc="(750,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(240,460)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="12"/>
+    </comp>
+    <comp lib="0" loc="(1060,710)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(1030,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(1290,110)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="0"/>
+    </comp>
+    <comp lib="0" loc="(240,410)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="7"/>
+    </comp>
+    <comp lib="0" loc="(1190,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(1790,250)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="4" loc="(1690,250)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="19"/>
+    </comp>
+    <comp lib="0" loc="(1050,600)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="11"/>
+    </comp>
+    <comp lib="0" loc="(230,60)" name="Tunnel">
+      <a name="label" val="en"/>
+    </comp>
+    <comp lib="4" loc="(750,600)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="9"/>
+    </comp>
+    <comp lib="4" loc="(1690,420)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="23"/>
+    </comp>
+    <comp lib="0" loc="(1660,430)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en23"/>
+    </comp>
+    <comp lib="0" loc="(540,420)" name="Tunnel">
+      <a name="label" val="en6"/>
+    </comp>
+    <comp lib="6" loc="(711,508)" name="Text">
+      <a name="text" val="$t1"/>
+    </comp>
+    <comp lib="0" loc="(60,500)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="16"/>
+    </comp>
+    <comp lib="0" loc="(1190,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="2" loc="(280,500)" name="Multiplexer">
+      <a name="select" val="5"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(1050,420)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="7"/>
+    </comp>
+    <comp lib="0" loc="(540,480)" name="Tunnel">
+      <a name="label" val="en12"/>
+    </comp>
+    <comp lib="0" loc="(900,540)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(60,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="11"/>
+    </comp>
+    <comp lib="0" loc="(720,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en1"/>
+    </comp>
+    <comp lib="0" loc="(280,500)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="A2_slt"/>
+    </comp>
+    <comp lib="0" loc="(1150,250)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(540,450)" name="Tunnel">
+      <a name="label" val="en9"/>
+    </comp>
+    <comp lib="6" loc="(1346,330)" name="Text">
+      <a name="text" val="$s5"/>
+    </comp>
+    <comp lib="0" loc="(60,620)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="28"/>
+    </comp>
+    <comp lib="6" loc="(708,330)" name="Text">
+      <a name="text" val="$a1"/>
+    </comp>
+    <comp lib="6" loc="(1501,681)" name="Text">
+      <a name="text" val="$fp"/>
+    </comp>
+    <comp lib="0" loc="(240,570)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="23"/>
+    </comp>
+    <comp lib="0" loc="(1830,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="4" loc="(1390,420)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="21"/>
+    </comp>
+    <comp lib="0" loc="(1390,770)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="29"/>
+    </comp>
+    <comp lib="0" loc="(240,520)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="18"/>
+    </comp>
+    <comp lib="0" loc="(1390,190)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(540,380)" name="Tunnel">
+      <a name="label" val="en2"/>
+    </comp>
+    <comp lib="0" loc="(240,430)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="9"/>
+    </comp>
+    <comp lib="0" loc="(750,600)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="9"/>
+    </comp>
+    <comp lib="0" loc="(1020,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en3"/>
+    </comp>
+    <comp lib="0" loc="(890,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(1540,420)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="22"/>
+    </comp>
+    <comp lib="0" loc="(1540,770)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="30"/>
+    </comp>
+    <comp lib="0" loc="(1670,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(750,540)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(210,170)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="A1_slt"/>
+    </comp>
+    <comp lib="0" loc="(540,400)" name="Tunnel">
+      <a name="label" val="en4"/>
+    </comp>
+    <comp lib="0" loc="(240,530)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="19"/>
+    </comp>
+    <comp lib="4" loc="(1390,600)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="25"/>
+    </comp>
+    <comp lib="0" loc="(1530,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(1190,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(150,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="reset"/>
+    </comp>
+    <comp lib="6" loc="(1006,331)" name="Text">
+      <a name="text" val="$a3"/>
+    </comp>
+    <comp lib="0" loc="(910,710)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(540,500)" name="Tunnel">
+      <a name="label" val="en14"/>
+    </comp>
+    <comp lib="0" loc="(1840,250)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="20"/>
+    </comp>
+    <comp lib="4" loc="(1690,770)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="31"/>
+    </comp>
+    <comp lib="0" loc="(700,250)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(60,540)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="20"/>
+    </comp>
+    <comp lib="0" loc="(60,430)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="9"/>
+    </comp>
+    <comp lib="0" loc="(730,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="4" loc="(1210,770)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="16"/>
+    </comp>
+    <comp lib="0" loc="(1170,430)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en8"/>
+    </comp>
+    <comp lib="4" loc="(900,600)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="10"/>
+    </comp>
+    <comp lib="0" loc="(110,280)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="WD"/>
+    </comp>
+    <comp lib="0" loc="(1180,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(100,220)" name="Pin">
+      <a name="width" val="5"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="A3"/>
+    </comp>
+    <comp lib="0" loc="(1530,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(1680,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(1820,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(870,610)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en10"/>
+    </comp>
+    <comp lib="0" loc="(1660,780)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en31"/>
+    </comp>
+    <comp lib="2" loc="(520,680)" name="Decoder">
+      <a name="select" val="5"/>
+    </comp>
+    <comp lib="0" loc="(100,140)" name="Pin">
+      <a name="width" val="5"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="A1"/>
+    </comp>
+    <comp lib="0" loc="(900,250)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="2"/>
+    </comp>
+    <comp lib="6" loc="(1650,681)" name="Text">
+      <a name="text" val="$ra"/>
+      <a name="font" val="Calibri plain 20"/>
+    </comp>
+    <comp lib="0" loc="(410,560)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en"/>
+    </comp>
+    <comp lib="1" loc="(480,520)" name="AND Gate">
+      <a name="width" val="5"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1200,600)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="12"/>
+    </comp>
+    <comp lib="4" loc="(910,770)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="14"/>
+    </comp>
+    <comp lib="0" loc="(540,620)" name="Tunnel">
+      <a name="label" val="en26"/>
+    </comp>
+    <comp lib="0" loc="(1510,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en18"/>
+    </comp>
+    <comp lib="0" loc="(1640,250)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(1380,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(60,530)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="19"/>
+    </comp>
+    <comp lib="0" loc="(540,640)" name="Tunnel">
+      <a name="label" val="en28"/>
+    </comp>
+    <comp lib="6" loc="(489,169)" name="Text">
+      <a name="text" val="Read   lw RD1, $A1"/>
+      <a name="font" val="SansSerif plain 24"/>
+    </comp>
+    <comp lib="0" loc="(1680,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(540,540)" name="Tunnel">
+      <a name="label" val="en18"/>
+    </comp>
+    <comp lib="0" loc="(890,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(540,470)" name="Tunnel">
+      <a name="label" val="en11"/>
+    </comp>
+    <comp lib="0" loc="(1380,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(1820,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(1000,250)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(1170,610)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en12"/>
+    </comp>
+    <comp lib="6" loc="(1495,330)" name="Text">
+      <a name="text" val="$s6"/>
+    </comp>
+    <comp lib="0" loc="(240,400)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="6"/>
+    </comp>
+    <comp lib="0" loc="(870,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en2"/>
+    </comp>
+    <comp lib="6" loc="(1166,680)" name="Text">
+      <a name="text" val="$s0"/>
+      <a name="font" val="Calibri plain 20"/>
+    </comp>
+    <comp lib="0" loc="(1840,360)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(60,520)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="18"/>
+    </comp>
+    <comp lib="0" loc="(1540,250)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="18"/>
+    </comp>
+    <comp lib="0" loc="(1520,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(1370,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(60,380)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="4"/>
+    </comp>
+    <comp lib="0" loc="(150,60)" name="Tunnel">
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(860,770)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(250,680)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="5"/>
+      <a name="label" val="A2"/>
+    </comp>
+    <comp lib="0" loc="(1040,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(60,390)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="5"/>
+    </comp>
+    <comp lib="0" loc="(210,280)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="RD2"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1390,710)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(70,680)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="5"/>
+      <a name="label" val="A1"/>
+    </comp>
+    <comp lib="0" loc="(1810,430)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en24"/>
+    </comp>
+    <comp lib="0" loc="(1200,540)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(1370,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(1830,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(700,600)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="6" loc="(1159,509)" name="Text">
+      <a name="text" val="$t4"/>
+    </comp>
+    <comp lib="0" loc="(410,580)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en"/>
+    </comp>
+    <comp lib="0" loc="(1690,770)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="31"/>
+    </comp>
+    <comp lib="0" loc="(760,770)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="13"/>
+    </comp>
+    <comp lib="0" loc="(540,440)" name="Tunnel">
+      <a name="label" val="en8"/>
+    </comp>
+    <comp lib="0" loc="(540,560)" name="Tunnel">
+      <a name="label" val="en20"/>
+    </comp>
+    <comp lib="6" loc="(488,209)" name="Text">
+      <a name="text" val="Read   lw RD2, $A2"/>
+      <a name="font" val="SansSerif plain 24"/>
+    </comp>
+    <comp lib="0" loc="(740,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(1200,360)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(1390,360)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="6" loc="(1794,331)" name="Text">
+      <a name="text" val="$t8"/>
+      <a name="font" val="Calibri plain 20"/>
+    </comp>
+    <comp lib="0" loc="(1050,540)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="6" loc="(1007,160)" name="Text">
+      <a name="text" val="$v1"/>
+    </comp>
+    <comp lib="0" loc="(1540,540)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(1660,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en19"/>
+    </comp>
+    <comp lib="0" loc="(240,620)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="28"/>
+    </comp>
+    <comp lib="0" loc="(240,550)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="21"/>
+    </comp>
+    <comp lib="0" loc="(1000,600)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(100,140)" name="Tunnel">
+      <a name="width" val="5"/>
+      <a name="label" val="A1"/>
+    </comp>
+    <comp lib="0" loc="(900,420)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="6"/>
+    </comp>
+    <comp lib="0" loc="(700,420)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(240,650)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="31"/>
+    </comp>
+    <comp lib="0" loc="(240,350)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="1"/>
+    </comp>
+    <comp lib="0" loc="(540,430)" name="Tunnel">
+      <a name="label" val="en7"/>
+    </comp>
+    <comp lib="0" loc="(240,500)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="16"/>
+    </comp>
+    <comp lib="6" loc="(865,508)" name="Text">
+      <a name="text" val="$t2"/>
+    </comp>
+    <comp lib="0" loc="(240,370)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1020,430)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en7"/>
+    </comp>
+    <comp lib="6" loc="(1496,510)" name="Text">
+      <a name="text" val="$k0"/>
+    </comp>
+    <comp lib="0" loc="(1040,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(720,610)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en9"/>
+    </comp>
+    <comp lib="0" loc="(1340,770)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(850,250)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(1180,780)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en16"/>
+    </comp>
+    <comp lib="0" loc="(540,370)" name="Tunnel">
+      <a name="label" val="en1"/>
+    </comp>
+    <comp lib="0" loc="(760,710)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(70,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(230,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="WE"/>
+    </comp>
+    <comp lib="0" loc="(1690,710)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="4" loc="(1540,600)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="26"/>
+    </comp>
+    <comp lib="0" loc="(910,770)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="14"/>
+    </comp>
+    <comp lib="0" loc="(880,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(880,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(890,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(1050,250)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="3"/>
+    </comp>
+    <comp lib="0" loc="(60,560)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="22"/>
+    </comp>
+    <comp lib="0" loc="(540,550)" name="Tunnel">
+      <a name="label" val="en19"/>
+    </comp>
+    <comp lib="0" loc="(1790,600)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(240,610)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="27"/>
+    </comp>
+    <comp lib="0" loc="(540,460)" name="Tunnel">
+      <a name="label" val="en10"/>
+    </comp>
+    <comp lib="0" loc="(1290,110)" name="Constant">
+      <a name="width" val="32"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="6" loc="(862,160)" name="Text">
+      <a name="text" val="$v0"/>
+      <a name="font" val="Calibri plain 20"/>
+    </comp>
+    <comp lib="6" loc="(1347,509)" name="Text">
+      <a name="text" val="$t9"/>
+    </comp>
+    <comp lib="0" loc="(1690,420)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="23"/>
+    </comp>
+    <comp lib="6" loc="(1644,331)" name="Text">
+      <a name="text" val="$s7"/>
+    </comp>
+    <comp lib="0" loc="(1690,360)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="4" loc="(760,770)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="13"/>
+    </comp>
+    <comp lib="0" loc="(740,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(730,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(1680,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(740,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="6" loc="(1009,509)" name="Text">
+      <a name="text" val="$t3"/>
+    </comp>
+    <comp lib="0" loc="(1160,770)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(1830,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(1050,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(890,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(1030,780)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en15"/>
+    </comp>
+    <comp lib="0" loc="(1200,250)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1820,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(60,350)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="1"/>
+    </comp>
+    <comp lib="0" loc="(1190,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(1340,250)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(1670,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(540,630)" name="Tunnel">
+      <a name="label" val="en27"/>
+    </comp>
+    <comp lib="0" loc="(540,530)" name="Tunnel">
+      <a name="label" val="en17"/>
+    </comp>
+    <comp lib="0" loc="(1690,190)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(1210,710)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(1680,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(900,190)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(100,170)" name="Tunnel">
+      <a name="width" val="5"/>
+      <a name="label" val="A2"/>
+    </comp>
+    <comp lib="0" loc="(1690,600)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="27"/>
+    </comp>
+    <comp lib="0" loc="(60,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="29"/>
+    </comp>
+    <comp lib="6" loc="(1798,160)" name="Text">
+      <a name="text" val="$s4"/>
+    </comp>
+    <comp lib="6" loc="(489,260)" name="Text">
+      <a name="text" val="Write   sw WD, $A3"/>
+      <a name="font" val="SansSerif plain 24"/>
+    </comp>
+    <comp lib="0" loc="(1370,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(1640,600)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(240,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="29"/>
+    </comp>
+    <comp lib="4" loc="(1540,250)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="18"/>
+    </comp>
+    <comp lib="0" loc="(880,780)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en14"/>
+    </comp>
+    <comp lib="0" loc="(1490,420)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="4" loc="(1540,420)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="22"/>
+    </comp>
+    <comp lib="0" loc="(1360,610)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en25"/>
+    </comp>
+    <comp lib="6" loc="(1795,510)" name="Text">
+      <a name="text" val="$gp"/>
+    </comp>
+    <comp lib="0" loc="(60,490)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="15"/>
+    </comp>
+    <comp lib="4" loc="(1390,250)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="17"/>
+    </comp>
+    <comp lib="0" loc="(60,570)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="23"/>
+    </comp>
+    <comp lib="0" loc="(1200,190)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="6" loc="(718,679)" name="Text">
+      <a name="text" val="$t5"/>
+    </comp>
+    <comp lib="0" loc="(1210,770)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="16"/>
+    </comp>
+    <comp lib="0" loc="(70,60)" name="Tunnel">
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(1390,600)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="25"/>
+    </comp>
+    <comp lib="0" loc="(1340,420)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(240,470)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="13"/>
+    </comp>
+    <comp lib="0" loc="(540,600)" name="Tunnel">
+      <a name="label" val="en24"/>
+    </comp>
+    <comp lib="0" loc="(1520,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(240,640)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="30"/>
+    </comp>
+    <comp lib="0" loc="(900,360)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(60,510)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="17"/>
+    </comp>
+    <comp lib="0" loc="(1340,600)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(1010,770)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(60,410)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="7"/>
+    </comp>
+    <comp lib="0" loc="(420,500)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="5"/>
+      <a name="label" val="A3"/>
+    </comp>
+    <comp lib="0" loc="(1510,780)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en30"/>
+    </comp>
+    <comp lib="0" loc="(1660,610)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en27"/>
+    </comp>
+    <comp lib="0" loc="(1530,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(240,360)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="2"/>
+    </comp>
+    <comp lib="0" loc="(60,600)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="26"/>
+    </comp>
+    <comp lib="0" loc="(1520,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(240,490)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="15"/>
+    </comp>
+    <comp lib="0" loc="(540,510)" name="Tunnel">
+      <a name="label" val="en15"/>
+    </comp>
+    <comp lib="0" loc="(1840,190)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(1510,430)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en22"/>
+    </comp>
+    <comp lib="6" loc="(709,160)" name="Text">
+      <a name="text" val="$at"/>
+      <a name="font" val="Calibri plain 20"/>
+    </comp>
+    <comp lib="0" loc="(1690,540)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(410,570)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en"/>
+    </comp>
+    <comp lib="0" loc="(1840,600)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="28"/>
+    </comp>
+    <comp lib="0" loc="(240,420)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="8"/>
+    </comp>
+    <comp lib="0" loc="(60,590)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="25"/>
+    </comp>
+    <comp lib="0" loc="(1840,540)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(1180,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(1200,420)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="8"/>
+    </comp>
+    <comp lib="0" loc="(240,390)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="5"/>
+    </comp>
+    <comp lib="0" loc="(540,520)" name="Tunnel">
+      <a name="label" val="en16"/>
+    </comp>
+    <comp lib="0" loc="(60,480)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="14"/>
+    </comp>
+    <comp lib="0" loc="(60,460)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="12"/>
+    </comp>
+    <comp lib="6" loc="(1016,680)" name="Text">
+      <a name="text" val="$t7"/>
+    </comp>
+    <comp lib="0" loc="(880,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(60,550)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="21"/>
+    </comp>
+    <comp lib="0" loc="(1390,250)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="17"/>
+    </comp>
+    <comp lib="0" loc="(540,670)" name="Tunnel">
+      <a name="label" val="en31"/>
+    </comp>
+    <comp lib="0" loc="(1390,420)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="21"/>
+    </comp>
+    <comp lib="0" loc="(1540,710)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(1840,420)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="24"/>
+    </comp>
+    <comp lib="0" loc="(240,580)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="24"/>
+    </comp>
+    <comp lib="0" loc="(60,400)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="6"/>
+    </comp>
+    <comp lib="0" loc="(540,610)" name="Tunnel">
+      <a name="label" val="en25"/>
+    </comp>
+    <comp lib="0" loc="(60,370)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="3"/>
+    </comp>
+    <comp lib="0" loc="(240,560)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="22"/>
+    </comp>
+    <comp lib="0" loc="(60,360)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="2"/>
+    </comp>
+    <comp lib="0" loc="(730,780)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en13"/>
+    </comp>
+    <comp lib="4" loc="(1050,250)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="3"/>
+    </comp>
+    <comp lib="0" loc="(1380,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(1530,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(1520,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(1150,420)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="6" loc="(1645,510)" name="Text">
+      <a name="text" val="$k1"/>
+    </comp>
+    <comp lib="6" loc="(779,104)" name="Text">
+      <a name="text" val="General Register File ($0 ~ $31)"/>
+      <a name="font" val="SansSerif plain 52"/>
+    </comp>
+    <comp lib="0" loc="(210,170)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="RD1"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(240,590)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="25"/>
+    </comp>
+    <comp lib="6" loc="(1648,160)" name="Text">
+      <a name="text" val="$s3"/>
+    </comp>
+    <comp lib="0" loc="(1540,190)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="4" loc="(1050,600)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="11"/>
+    </comp>
+    <comp lib="4" loc="(1200,250)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="4"/>
+    </comp>
+    <comp lib="6" loc="(1499,160)" name="Text">
+      <a name="text" val="$s2"/>
+    </comp>
+    <comp lib="0" loc="(750,250)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="1"/>
+    </comp>
+    <comp lib="0" loc="(1670,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(410,590)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en"/>
+    </comp>
+    <comp lib="0" loc="(750,190)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(60,470)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="13"/>
+    </comp>
+    <comp lib="4" loc="(900,250)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="2"/>
+    </comp>
+    <comp lib="0" loc="(730,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(1000,420)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="4" loc="(1060,770)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="15"/>
+    </comp>
+    <comp lib="0" loc="(900,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(740,630)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(100,220)" name="Tunnel">
+      <a name="width" val="5"/>
+      <a name="label" val="A3"/>
+    </comp>
+    <comp lib="0" loc="(540,570)" name="Tunnel">
+      <a name="label" val="en21"/>
+    </comp>
+    <comp lib="0" loc="(1510,610)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en26"/>
+    </comp>
+    <comp lib="0" loc="(1360,430)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en21"/>
+    </comp>
+    <comp lib="0" loc="(240,380)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1390,540)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(710,770)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(1360,780)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en29"/>
+    </comp>
+    <comp lib="0" loc="(1370,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(1200,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(60,420)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="8"/>
+    </comp>
+    <comp lib="6" loc="(862,330)" name="Text">
+      <a name="text" val="$a2"/>
+    </comp>
+    <comp lib="4" loc="(1200,600)" name="Register">
+      <a name="width" val="32"/>
+      <a name="label" val="12"/>
+    </comp>
+    <comp lib="0" loc="(1490,770)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(1030,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(1810,610)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en28"/>
+    </comp>
+    <comp lib="0" loc="(1380,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rst"/>
+    </comp>
+    <comp lib="0" loc="(60,640)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="30"/>
+    </comp>
+    <comp lib="0" loc="(870,430)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en6"/>
+    </comp>
+    <comp lib="6" loc="(1251,90)" name="Text">
+      <a name="text" val="$zero"/>
+      <a name="font" val="Calibri plain 20"/>
+    </comp>
+    <comp lib="0" loc="(60,580)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="24"/>
+    </comp>
+    <comp lib="0" loc="(100,500)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="A1_slt"/>
+    </comp>
+    <comp lib="0" loc="(1790,420)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(1540,360)" name="Probe">
+      <a name="radix" val="10unsigned"/>
+    </comp>
+    <comp lib="0" loc="(110,280)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(540,650)" name="Tunnel">
+      <a name="label" val="en29"/>
+    </comp>
+    <comp lib="0" loc="(1640,420)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="word"/>
+    </comp>
+    <comp lib="0" loc="(1170,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en4"/>
+    </comp>
+    <comp lib="0" loc="(540,390)" name="Tunnel">
+      <a name="label" val="en3"/>
+    </comp>
+    <comp lib="0" loc="(240,540)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="20"/>
+    </comp>
+    <comp lib="0" loc="(900,600)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="10"/>
+    </comp>
+    <comp lib="0" loc="(1040,800)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(240,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="32"/>
+      <a name="label" val="11"/>
+    </comp>
+    <comp lib="0" loc="(100,170)" name="Pin">
+      <a name="width" val="5"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="A2"/>
+    </comp>
+    <comp lib="0" loc="(1030,280)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="0" loc="(540,490)" name="Tunnel">
+      <a name="label" val="en13"/>
+    </comp>
+    <comp lib="0" loc="(1020,610)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en11"/>
+    </comp>
+    <comp lib="0" loc="(430,540)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="5"/>
+      <a name="incoming" val="5"/>
+    </comp>
+    <comp lib="0" loc="(540,590)" name="Tunnel">
+      <a name="label" val="en23"/>
+    </comp>
+    <comp lib="0" loc="(1360,260)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="en17"/>
+    </comp>
+  </circuit>
+</project>

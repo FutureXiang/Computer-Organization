@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Reading design: mips.prj
 
@@ -1430,9 +1430,9 @@ Primitive and Black Box Usage:
 # FlipFlops/Latches                : 2063
 #      FD                          : 568
 #      FDC                         : 35
-#      FDCE                        : 53
+#      FDCE                        : 48
 #      FDE                         : 4
-#      FDPE                        : 19
+#      FDPE                        : 24
 #      FDR                         : 156
 #      FDRE                        : 1182
 #      FDS                         : 6
@@ -1715,12 +1715,12 @@ The_Main_Clock/pll_base_inst/CLKOUT0                |   14.754|         |       
 =========================================================================
 
 
-Total REAL time to Xst completion: 37.00 secs
-Total CPU time to Xst completion: 37.45 secs
+Total REAL time to Xst completion: 36.00 secs
+Total CPU time to Xst completion: 35.47 secs
  
 --> 
 
-Total memory usage is 315496 kilobytes
+Total memory usage is 285696 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  213 (   0 filtered)

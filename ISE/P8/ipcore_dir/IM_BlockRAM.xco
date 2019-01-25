@@ -1,7 +1,7 @@
 ##############################################################
 #
 # Xilinx Core Generator version 14.7
-# Date: Fri Dec 28 11:48:51 2018
+# Date: Thu Jan 03 07:31:38 2019
 #
 ##############################################################
 #
@@ -46,7 +46,7 @@ CSET axi_id_width=4
 CSET axi_slave_type=Memory_Slave
 CSET axi_type=AXI4_Full
 CSET byte_size=8
-CSET coe_file=.\code.coe
+CSET coe_file=C:\Users\xiang\Desktop\new.coe
 CSET collision_warnings=ALL
 CSET component_name=IM_BlockRAM
 CSET disable_collision_warnings=false
@@ -105,4 +105,4 @@ CSET write_width_b=32
 MISC pkg_timestamp=2012-11-19T16:22:25Z
 # END Extra information
 GENERATE
-# CRC: 8e7a33c8
+# CRC: 14eb7ca5
